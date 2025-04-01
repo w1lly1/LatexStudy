@@ -1,0 +1,23 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{29_hadsell2006dimensionality}
+\citation{50_radford2018improving,51_radford2019language}
+\citation{12_devlin2019bert}
+\citation{54_sivic2003video,9_coates2011importance,5_chatfield2011devil}
+\citation{61_wu2018unsupervised,46_oord2018representation,36_hjelm2019learning,66_zhuang2019local,35_henaff2019data,56_tian2019contrastive,2_bachman2019learning}
+\citation{29_hadsell2006dimensionality}
+\citation{29_hadsell2006dimensionality}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Momentum Contrast (MoCo) trains a visual represen- tation encoder by matching an encoded query q to a dictionary of encoded keys using a contrastive loss. The dictionary keys {k0, k1, k2, ...} are defined on-the-fly by a set of data samples. The dictionary is built as a queue, with the current mini-batch en- queued and the oldest mini-batch dequeued, decoupling it from the mini-batch size. The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder. This method enables a large and consistent dictionary for learning visual representations.}}{1}{figure.1}\protected@file@percent }
+\newlabel{fig:Figure 1}{{1}{1}{Momentum Contrast (MoCo) trains a visual represen- tation encoder by matching an encoded query q to a dictionary of encoded keys using a contrastive loss. The dictionary keys {k0, k1, k2, ...} are defined on-the-fly by a set of data samples. The dictionary is built as a queue, with the current mini-batch en- queued and the oldest mini-batch dequeued, decoupling it from the mini-batch size. The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder. This method enables a large and consistent dictionary for learning visual representations}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Contrastive Learning as Dictionary Look-up}{2}{subsection.3.1}\protected@file@percent }
+\newlabel{eq:equation1}{{1}{2}{Contrastive Learning as Dictionary Look-up}{equation.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Momentum Contrast}{2}{subsection.3.2}\protected@file@percent }
+\newlabel{eq:equation2}{{2}{2}{Momentum Contrast}{equation.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Conceptual comparison of three contrastive loss mechanisms (empirical comparisons are in Figure 3 and Table 3). Here we illustrate one pair of query and key. The three mechanisms differ in how the keys are maintained and how the key encoder is updated. (a): The encoders for computing the query and key representations are updated end-to-end by back-propagation (the two encoders can be different). (b): The key representations are sampled from a memory bank [61]. (c): MoCo encodes the new keys on-the-ﬂy by a momentum-updated encoder, and maintains a queue (not illustrated in this ﬁgure) of keys.}}{3}{figure.2}\protected@file@percent }
+\newlabel{fig:Figure 2}{{2}{3}{Conceptual comparison of three contrastive loss mechanisms (empirical comparisons are in Figure 3 and Table 3). Here we illustrate one pair of query and key. The three mechanisms differ in how the keys are maintained and how the key encoder is updated. (a): The encoders for computing the query and key representations are updated end-to-end by back-propagation (the two encoders can be different). (b): The key representations are sampled from a memory bank [61]. (c): MoCo encodes the new keys on-the-ﬂy by a momentum-updated encoder, and maintains a queue (not illustrated in this ﬁgure) of keys}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Pretext Ta

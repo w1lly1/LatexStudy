@@ -1,0 +1,75 @@
+\begin{thebibliography}{10}
+
+\bibitem{2_bachman2019learning}
+Philip Bachman, R~Devon Hjelm, and William Buchwalter.
+\newblock Learning representations by maximizing mutual information across views.
+\newblock {\em arXiv:1906.00910}, 2019.
+
+\bibitem{5_chatfield2011devil}
+Ken Chatfield, Victor Lempitsky, Andrea Vedaldi, and Andrew Zisserman.
+\newblock The devil is in the details: an evaluation of recent feature encoding methods.
+\newblock In {\em BMVC}, 2011.
+
+\bibitem{9_coates2011importance}
+Adam Coates and Andrew Ng.
+\newblock The importance of encoding versus training with sparse coding and vector quantization.
+\newblock In {\em ICML}, 2011.
+
+\bibitem{12_devlin2019bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
+\newblock In {\em NAACL}, 2019.
+
+\bibitem{29_hadsell2006dimensionality}
+Raia Hadsell, Sumit Chopra, and Yann LeCun.
+\newblock Dimensionality reduction by learning an invariant mapping.
+\newblock In {\em CVPR}, 2016.
+
+\bibitem{35_henaff2019data}
+Olivier~J H{\'e}naff, Ali Razavi, Carl Doersch, SM~Eslami, and Aaron van~den Oord.
+\newblock Data-efficient image recognition with contrastive predictive coding.
+\newblock {\em arXiv:1905.09272}, 2019.
+
+\bibitem{36_hjelm2019learning}
+R~Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Adam Trischler, and Yoshua Bengio.
+\newblock Learning deep representations by mutual information estimation and maximization.
+\newblock In {\em ICLR}, 2019.
+
+\bibitem{50_radford2018improving}
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem{51_radford2019language}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock 2019.
+
+\bibitem{54_sivic2003video}
+Jost Sivic and Andrew Zisserman.
+\newblock Video google: a text retrieval approach to object matching in videos.
+\newblock In {\em ICCV}, 2003.
+
+\bibitem{56_tian2019contrastive}
+Yonglong Tian, Dilip Krishnan, and Phillip Isola.
+\newblock Contrastive multiview coding.
+\newblock {\em arXiv:1906.05849}, 2019.
+
+\bibitem{46_oord2018representation}
+Aaron van~den Oord, Yazhe Li, and Oriol Vinyals.
+\newblock Representation learning with contrastive predictive coding.
+\newblock {\em arXiv:1807.03748}, 2018.
+
+\bibitem{61_wu2018unsupervised}
+Zhirong Wu, Yuanjun Xiong, Stella Yu, and Dahua Lin.
+\newblock Unsupervised feature learning via non-parametric instance discrimination.
+\newblock In {\em CVPR}, 2018.
+\newblock Updated version accessed at: \url{https://arxiv.org/abs/1805.01978v1}.
+
+\bibitem{66_zhuang2019local}
+Chengxu Zhuang, Alex~Lin Zhai, and Daniel Yamins.
+\newblock Local aggregation for unsupervised learning of visual embeddings.
+\newblock In {\em ICCV}, 2019.
+\newblock Additional results accessed from supplementary materials.
+
+\end{thebibliography}
