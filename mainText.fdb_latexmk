@@ -1,17 +1,23 @@
 # Fdb version 4
-["bibtex mainText"] 1743671918.88001 "mainText.aux" "mainText.bbl" "mainText" 1743671920.95497 0
+["bibtex mainText"] 1743680532.54269 "mainText.aux" "mainText.bbl" "mainText" 1743680535.21613 0
   "./references.bib" 1743647076 17074 6130aabc126857741bb0f50eaac175c2 ""
   "f:/laTex/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1743427529 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "mainText.aux" 1743671920 6985 b74292a1a545531569d9af68469566b8 "pdflatex"
+  "mainText.aux" 1743680534 21245 b4aa7770ea7ca773bfec183666b338ca "pdflatex"
   (generated)
   "mainText.bbl"
   "mainText.blg"
   (rewritten before read)
-["pdflatex"] 1743671919.24817 "e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex" "mainText.pdf" "mainText" 1743671920.95546 0
+["pdflatex"] 1743680532.90529 "e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex" "mainText.pdf" "mainText" 1743680535.21669 0
   "Pic/figure1.png" 1743658656 16514 955c77df84cca59b62fffb0e0375cdc9 ""
   "Pic/figure2.png" 1743658771 37476 fdd397fa5452b839d9f199aa0c42ee74 ""
   "Pic/figure3.png" 1743658797 29759 5c31728fa5faa96c2d7666b198c4007c ""
-  "e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex" 1743671916 28880 12ee64e5151d4880184cba24e801e3a6 ""
+  "Pic/table1.png" 1743657775 244116 de127306b6ab35053e063cbac1d399d4 ""
+  "Pic/table2.png" 1743657804 122428 06775729092ca9cf112bc43c8ad0fa3f ""
+  "Pic/table3.png" 1743657853 73230 2b78d39b76f3f4893e6eb6e1987b6bb4 ""
+  "Pic/table4.png" 1743657887 160841 e8a64ffb4303456ad64bb6e947e2fd3a ""
+  "Pic/table5.png" 1743657926 178052 54d419f79410980394f06000c17577fb ""
+  "Pic/table6.png" 1743657958 197254 b51da0155e98f2a4e82eac4b7863a143 ""
+  "e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex" 1743680529 47103 c4c9239f31d1043c5d9919dd450bba3c ""
   "f:/laTex/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1743427832 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "f:/laTex/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1743427987 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "f:/laTex/texlive/2025/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1743427714 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -122,10 +128,10 @@
   "f:/laTex/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743429423 5512725 33c574ae821011790b76e219cc6f1754 ""
   "f:/laTex/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743429668 3346081 52655fd75d3bbdca8832a54c4080a5a2 ""
   "f:/laTex/texlive/2025/texmf.cnf" 1743429400 713 e69b156964470283e0530f5060668171 ""
-  "mainText.aux" 1743671920 6985 b74292a1a545531569d9af68469566b8 "pdflatex"
-  "mainText.bbl" 1743671919 3023 a3ba94e464e0959cda7429ba73f15ba4 "bibtex mainText"
-  "mainText.out" 1743671920 2136 b5f63ecd1b89d6810aa445db26a88458 "pdflatex"
-  "mainText.tex" 1743671916 28880 12ee64e5151d4880184cba24e801e3a6 ""
+  "mainText.aux" 1743680534 21245 b4aa7770ea7ca773bfec183666b338ca "pdflatex"
+  "mainText.bbl" 1743680532 11490 a9febe0a83038c86939d3b2087a33ff5 "bibtex mainText"
+  "mainText.out" 1743680534 2136 b5f63ecd1b89d6810aa445db26a88458 "pdflatex"
+  "mainText.tex" 1743680529 47103 c4c9239f31d1043c5d9919dd450bba3c ""
   (generated)
   "mainText.aux"
   "mainText.log"

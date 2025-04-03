@@ -5,25 +5,145 @@ Philip Bachman, R~Devon Hjelm, and William Buchwalter.
 \newblock Learning representations by maximizing mutual information across views.
 \newblock {\em arXiv:1906.00910}, 2019.
 
+\bibitem{3_caron2018deep}
+Mathilde Caron, Piotr Bojanowski, Armand Joulin, and Matthijs Douze.
+\newblock Deep clustering for unsupervised learning of visual features.
+\newblock In {\em ECCV}, 2018.
+
+\bibitem{4_caron2019unsupervised}
+Mathilde Caron, Piotr Bojanowski, Julien Mairal, and Armand Joulin.
+\newblock Unsupervised pre-training of image features on non-curated data.
+\newblock In {\em ICCV}, 2019.
+
 \bibitem{5_chatfield2011devil}
 Ken Chatfield, Victor Lempitsky, Andrea Vedaldi, and Andrew Zisserman.
 \newblock The devil is in the details: an evaluation of recent feature encoding methods.
 \newblock In {\em BMVC}, 2011.
+
+\bibitem{7_chen2020simple}
+Ting Chen, Simon Kornblith, Mohammad Norouzi, and Geoffrey Hinton.
+\newblock A simple framework for contrastive learning of visual representations.
+\newblock {\em arXiv:2002.05709}, 2020.
+
+\bibitem{8_chen2020improved}
+Xinlei Chen, Haoqi Fan, Ross Girshick, and Kaiming He.
+\newblock Improved baselines with momentum contrastive learning.
+\newblock {\em arXiv:2003.04297}, 2020.
 
 \bibitem{9_coates2011importance}
 Adam Coates and Andrew Ng.
 \newblock The importance of encoding versus training with sparse coding and vector quantization.
 \newblock In {\em ICML}, 2011.
 
+\bibitem{10_cordts2016cityscapes}
+Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele.
+\newblock The cityscapes dataset for semantic urban scene understanding.
+\newblock In {\em CVPR}, 2016.
+
+\bibitem{11_deng2009imagenet}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock In {\em CVPR}, 2019.
+
 \bibitem{12_devlin2019bert}
 Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
 \newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
 \newblock In {\em NAACL}, 2019.
 
+\bibitem{13_doersch2015unsupervised}
+Carl Doersch, Abhinav Gupta, and Alexei~A Efros.
+\newblock Unsupervised visual representation learning by context prediction.
+\newblock In {\em ICCV}, 2015.
+
+\bibitem{14_doersch2017multi}
+Carl Doersch and Andrew Zisserman.
+\newblock Multi-task self-supervised visual learning.
+\newblock In {\em ICCV}, 2017.
+
+\bibitem{17_dosovitskiy2014discriminative}
+Alexey Dosovitskiy, Jost~Tobias Springenberg, Martin Riedmiller, and Thomas Brox.
+\newblock Discriminative unsupervised feature learning with convolutional neural networks.
+\newblock In {\em NeurIPS}, 2014.
+
+\bibitem{18_everingham2010pascal}
+Mark Everingham, Luc~Van Gool, Christopher~KI Williams, John Winn, and Andrew Zisserman.
+\newblock The pascal visual object classes (voc) challenge.
+\newblock {\em IJCV}, 2010.
+
+\bibitem{20_girshick2015fast}
+Ross Girshick.
+\newblock Fast r-cnn.
+\newblock In {\em ICCV}, 2015.
+
+\bibitem{21_girshick2014rich}
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic segmentation.
+\newblock In {\em CVPR}, 2014.
+
+\bibitem{22_girshick2018detectron}
+Ross Girshick, Ilija Radosavovic, Georgia Gkioxari, Piotr Doll{\'a}r, and Kaiming He.
+\newblock Detectron.
+\newblock 2018.
+
+\bibitem{23_gomez2017reversible}
+Aidan~N Gomez, Mengye Ren, Raquel Urtasun, and Roger~B Grosse.
+\newblock The reversible residual network: Backpropagation without storing activations.
+\newblock In {\em NeurIPS}, 2017.
+
+\bibitem{24_goodfellow2014generative}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock Generative adversarial nets.
+\newblock In {\em NeurIPS}, 2014.
+
+\bibitem{25_goyal2017accurate}
+Priya Goyal, Piotr Doll{\'a}r, Ross Girshick, Pieter Noordhuis, Lukasz Wesolowski, Aapo Kyrola, Andrew Tulloch, Yangqing Jia, and Kaiming He.
+\newblock Accurate, large minibatch sgd: Training imagenet in 1 hour.
+\newblock {\em arXiv:1706.02677}, 2017.
+
+\bibitem{26_goyal2019scaling}
+Priya Goyal, Dhruv Mahajan, Abhinav Gupta, and Ishan Misra.
+\newblock Scaling and benchmarking self-supervised visual representation learning.
+\newblock In {\em ICCV}, 2019.
+
+\bibitem{1_guler2018densepose}
+R{\i}za~Alp G{\"u}ler, Natalia Neverova, and Iasonas Kokkinos.
+\newblock Densepose: Dense human pose estimation in the wild.
+\newblock In {\em CVPR}, 2018.
+
+\bibitem{27_gupta2019lvis}
+Agrim Gupta, Piotr Dollar, and Ross Girshick.
+\newblock Lvis: A dataset for large vocabulary instance segmentation.
+\newblock In {\em CVPR}, 2019.
+
+\bibitem{28_gutmann2010noise}
+Michael Gutmann and Aapo Hyv{\"a}rinen.
+\newblock Noise-contrastive estimation: A new estimation principle for unnormalized statistical models.
+\newblock In {\em AISTATS}, 2010.
+
 \bibitem{29_hadsell2006dimensionality}
 Raia Hadsell, Sumit Chopra, and Yann LeCun.
 \newblock Dimensionality reduction by learning an invariant mapping.
 \newblock In {\em CVPR}, 2016.
+
+\bibitem{31_he2019rethinking}
+Kaiming He, Ross Girshick, and Piotr Doll{\'a}r.
+\newblock Rethinking imagenet pre-training.
+\newblock In {\em ICCV}, 2019.
+
+\bibitem{32_he2017mask}
+Kaiming He, Georgia Gkioxari, Piotr Doll{\'a}r, and Ross Girshick.
+\newblock Mask r-cnn.
+\newblock In {\em ICCV}, 2017.
+
+\bibitem{33_he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em CVPR}, 2016.
+
+\bibitem{34_he2016identity}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Identity mappings in deep residual networks.
+\newblock In {\em ECCV}, 2016.
 
 \bibitem{35_henaff2019data}
 Olivier~J H{\'e}naff, Ali Razavi, Carl Doersch, SM~Eslami, and Aaron van~den Oord.
@@ -35,6 +155,61 @@ R~Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Adam Trisch
 \newblock Learning deep representations by mutual information estimation and maximization.
 \newblock In {\em ICLR}, 2019.
 
+\bibitem{57_vanhorn2018inaturalist}
+Grant~Van Horn, Oisin~Mac Aodha, Yang Song, Yin Cui, Chen Sun, Alex Shepard, Hartwig Adam, Pietro Perona, and Serge Belongie.
+\newblock The inaturalist species classification and detection dataset.
+\newblock In {\em CVPR}, 2018.
+
+\bibitem{37_ioffe2015batch}
+Sergey Ioffe and Christian Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing internal covariate shift.
+\newblock In {\em ICML}, 2015.
+
+\bibitem{39_lecun1989backpropagation}
+Yann LeCun, Bernhard Boser, John~S Denker, Donnie Henderson, Richard~E Howard, Wayne Hubbard, and Lawrence~D Jackel.
+\newblock Backpropagation applied to handwritten zip code recognition.
+\newblock {\em Neural computation}, 1989.
+
+\bibitem{40_lim2019fast}
+Sungbin Lim, Ildoo Kim, Taesup Kim, Chiheon Kim, and Sungwoong Kim.
+\newblock Fast autoaugment.
+\newblock {\em arXiv:1905.00397}, 2019.
+
+\bibitem{41_lin2017feature}
+Tsung-Yi Lin, Piotr Doll{\'a}r, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie.
+\newblock Feature pyramid networks for object detection.
+\newblock In {\em CVPR}, 2017.
+
+\bibitem{42_lin2014microsoft}
+Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Doll{\'a}r, and C~Lawrence Zitnick.
+\newblock Microsoft coco: Common objects in context.
+\newblock In {\em ECCV}, 2014.
+
+\bibitem{43_long2015fully}
+Jonathan Long, Evan Shelhamer, and Trevor Darrell.
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock In {\em CVPR}, 2015.
+
+\bibitem{44_mahajan2018exploring}
+Dhruv Mahajan, Ross Girshick, Vignesh Ramanathan, Kaiming He, Manohar Paluri, Yixuan Li, Ashwin Bharambe, and Laurens van~der Maaten.
+\newblock Exploring the limits of weakly supervised pretraining.
+\newblock In {\em ECCV}, 2018.
+
+\bibitem{45_noroozi2016unsupervised}
+Mehdi Noroozi and Paolo Favaro.
+\newblock Unsupervised learning of visual representations by solving jigsaw puzzles.
+\newblock In {\em ECCV}, 2016.
+
+\bibitem{48_pathak2016context}
+Deepak Pathak, Philipp Krahenbuhl, Jeff Donahue, Trevor Darrell, and Alexei~A Efros.
+\newblock Context encoders: Feature learning by inpainting.
+\newblock In {\em CVPR}, 2016.
+
+\bibitem{49_peng2018megdet}
+Chao Peng, Tete Xiao, Zeming Li, Yuning Jiang, Xiangyu Zhang, Kai Jia, Gang Yu, and Jian Sun.
+\newblock Megdet: A large mini-batch object detector.
+\newblock In {\em CVPR}, 2018.
+
 \bibitem{50_radford2018improving}
 Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever.
 \newblock Improving language understanding by generative pre-training.
@@ -45,10 +220,20 @@ Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutske
 \newblock Language models are unsupervised multitask learners.
 \newblock 2019.
 
+\bibitem{52_ren2015faster}
+Saoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.
+\newblock Faster r-cnn: Towards real-time object detection with region proposal networks.
+\newblock In {\em NeurIPS}, 2015.
+
 \bibitem{54_sivic2003video}
 Jost Sivic and Andrew Zisserman.
 \newblock Video google: a text retrieval approach to object matching in videos.
 \newblock In {\em ICCV}, 2003.
+
+\bibitem{55_thomee2016yfcc100m}
+Bart Thomee, David~A Shamma, Gerald Friedland, Benjamin Elizalde, Karl Ni, Douglas Poland, Damian Borth, and Li-Jia Li.
+\newblock Yfcc100m: The new data in multimedia research.
+\newblock {\em Communications of the ACM}, 2016.
 
 \bibitem{56_tian2019contrastive}
 Yonglong Tian, Dilip Krishnan, and Phillip Isola.
@@ -60,11 +245,35 @@ Aaron van~den Oord, Yazhe Li, and Oriol Vinyals.
 \newblock Representation learning with contrastive predictive coding.
 \newblock {\em arXiv:1807.03748}, 2018.
 
+\bibitem{59_wang2015unsupervised}
+Xiaolong Wang and Abhinav Gupta.
+\newblock Unsupervised learning of visual representations using videos.
+\newblock In {\em ICCV}, 2015.
+
+\bibitem{60_wu2019detectron2}
+Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick.
+\newblock Detectron2, 2019.
+
 \bibitem{61_wu2018unsupervised}
 Zhirong Wu, Yuanjun Xiong, Stella Yu, and Dahua Lin.
 \newblock Unsupervised feature learning via non-parametric instance discrimination.
 \newblock In {\em CVPR}, 2018.
 \newblock Updated version accessed at: \url{https://arxiv.org/abs/1805.01978v1}.
+
+\bibitem{62_xie2017residual}
+Saining Xie, Ross Girshick, Piotr Doll{\'a}r, Zhuowen Tu, and Kaiming He.
+\newblock Aggregated residual transformations for deep neural networks.
+\newblock In {\em CVPR}, 2017.
+
+\bibitem{63_ye2019unsupervised}
+Mang Ye, Xu~Zhang, Pong~C Yuen, and Shih-Fu Chang.
+\newblock Unsupervised embedding learning via invariant and spreading instance feature.
+\newblock In {\em CVPR}, 2019.
+
+\bibitem{64_zhang2016colorful}
+Richard Zhang, Phillip Isola, and Alexei~A Efros.
+\newblock Colorful image colorization.
+\newblock In {\em ECCV}, 2016.
 
 \bibitem{66_zhuang2019local}
 Chengxu Zhuang, Alex~Lin Zhai, and Daniel Yamins.

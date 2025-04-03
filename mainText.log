@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.31)  3 APR 2025 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.31)  3 APR 2025 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -446,9 +446,28 @@ File: Pic/figure1.png Graphic file (type png)
 Package pdftex.def Info: Pic/figure1.png  used on input line 108.
 (pdftex.def)             Requested size: 200.86061pt x 154.80655pt.
 
+
+Package natbib Warning: Citation `63_he2019momentum' on page 1 undefined on input line 145.
+
+
 Underfull \vbox (badness 1762) has occurred while \output is active []
 
 
+
+
+Package natbib Warning: Citation `15_donahue2016adversarial' on page 1 undefined on input line 193.
+
+
+Package natbib Warning: Citation `16_dumoulin2016adversarial' on page 1 undefined on input line 193.
+
+
+Package natbib Warning: Citation `58_vincent2010stacked' on page 1 undefined on input line 198.
+
+
+Package natbib Warning: Citation `65_larsson2016learning' on page 1 undefined on input line 200.
+
+
+Package natbib Warning: Citation `47_vondrick2016generating' on page 1 undefined on input line 203.
 
 
 
@@ -459,34 +478,34 @@ Underfull \vbox (badness 1762) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.210 
+l.211 
        <./Pic/figure1.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
 
 
-<Pic/figure2.png, id=99, 442.65375pt x 156.585pt>
+Package natbib Warning: Citation `63_he2019momentum' on page 2 undefined on input line 245.
+
+
+Package natbib Warning: Citation `63_he2019momentum' on page 2 undefined on input line 247.
+
+
+
+<Pic/figure2.png, id=151, 442.65375pt x 156.585pt>
 File: Pic/figure2.png Graphic file (type png)
 <use Pic/figure2.png>
-Package pdftex.def Info: Pic/figure2.png  used on input line 250.
+Package pdftex.def Info: Pic/figure2.png  used on input line 251.
 (pdftex.def)             Requested size: 409.72125pt x 144.94397pt.
+
+Package natbib Warning: Citation `63_he2019momentum' on page 2 undefined on input line 320.
+
 
 
 [2]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 342.
-
-
-LaTeX Font Warning: Font shape `OT1/ptm/l/n' undefined
-(Font)              using `OT1/ptm/m/n' instead on input line 346.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 354.
-(f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 
 
 
@@ -494,60 +513,213 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.455 
-       <./Pic/figure2.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 479.
- (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+l.341 \clearpage
+                 % 强制分页
+
+ <./Pic/figure2.png>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 343.
+
+
+LaTeX Font Warning: Font shape `OT1/ptm/l/n' undefined
+(Font)              using `OT1/ptm/m/n' instead on input line 347.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 355.
+(f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+
+
+Package natbib Warning: Citation `11_russakovsky2015imagenet' on page 4 undefined on input line 459.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<Pic/figure3.png, id=158, 294.34969pt x 155.07938pt>
+[4
+
+]
+<Pic/figure3.png, id=269, 294.34969pt x 155.07938pt>
 File: Pic/figure3.png Graphic file (type png)
 <use Pic/figure3.png>
-Package pdftex.def Info: Pic/figure3.png  used on input line 528.
+Package pdftex.def Info: Pic/figure3.png  used on input line 529.
 (pdftex.def)             Requested size: 200.86061pt x 105.82408pt.
 
-e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex:555: LaTeX Error: Not allowed in LR mode.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.555 \subsection{Transferring Features}
-                                        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Package natbib Warning: Citation `38_he2017maskrcnn' on page 5 undefined on input line 571.
 
 
-e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex:555: LaTeX Error: Not allowed in LR mode.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.555 \subsection{Transferring Features}
-                                        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<Pic/table1.png, id=272, 391.4625pt x 750.55406pt>
+File: Pic/table1.png Graphic file (type png)
+<use Pic/table1.png>
+Package pdftex.def Info: Pic/table1.png  used on input line 583.
+(pdftex.def)             Requested size: 200.86061pt x 385.11382pt.
+<Pic/table2.png, id=293, 391.4625pt x 327.47343pt>
+File: Pic/table2.png Graphic file (type png)
+<use Pic/table2.png>
+Package pdftex.def Info: Pic/table2.png  used on input line 617.
+(pdftex.def)             Requested size: 200.86061pt x 168.0286pt.
+<Pic/table3.png, id=294, 380.92313pt x 177.66376pt>
+File: Pic/table3.png Graphic file (type png)
+<use Pic/table3.png>
+Package pdftex.def Info: Pic/table3.png  used on input line 629.
+(pdftex.def)             Requested size: 200.86061pt x 93.6815pt.
+<Pic/table4.png, id=306, 813.79031pt x 233.37187pt>
+File: Pic/table4.png Graphic file (type png)
+<use Pic/table4.png>
+Package pdftex.def Info: Pic/table4.png  used on input line 668.
+(pdftex.def)             Requested size: 409.72125pt x 117.49397pt.
 
-e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex:555: Missing } inserted.
-<inserted text> 
-                }
-l.555 \subsection{Transferring Features}
-                                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-e:/MyOwn/ProgramStudy/LatexStudy/mainText.tex:555: Missing } inserted.
-<inserted text> 
-                }
-l.555 \subsection{Transferring Features}
-                                        
-I've inserted something that you may have forgotten.
-(Se
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 \subsubsection{PASCAL VOC Object Detection}
+                                                  <./Pic/figure3.png>]
+
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 \subsubsection{PASCAL VOC Object Detection}
+                                                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 \subsubsection{PASCAL VOC Object Detection}
+                                                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 \subsubsection{PASCAL VOC Object Detection}
+                                                  <./Pic/table1.png> <./Pic/table2.png> <./Pic/table3.png>]
+
+<Pic/table5.png, id=367, 834.86906pt x 262.73157pt>
+File: Pic/table5.png Graphic file (type png)
+<use Pic/table5.png>
+Package pdftex.def Info: Pic/table5.png  used on input line 761.
+(pdftex.def)             Requested size: 409.72125pt x 128.94003pt.
+<Pic/table6.png, id=368, 385.44pt x 545.78906pt>
+File: Pic/table6.png Graphic file (type png)
+<use Pic/table6.png>
+Package pdftex.def Info: Pic/table6.png  used on input line 769.
+(pdftex.def)             Requested size: 200.86061pt x 284.41989pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 775.
+(f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.815 
+       <./Pic/table4.png>]
+
+(./mainText.bbl
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+      <./Pic/table5.png> <./Pic/table6.png>]
+Underfull \hbox (badness 1418) in paragraph at lines 39--42
+[]\OT1/ptm/m/n/10 Marius Cordts, Mo-hamed Om-ran, Se-bas-tian Ramos,
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 69--72
+[]\OT1/ptm/m/n/10 Mark Ev-er-ing-ham, Luc Van Gool, Christo-pher KI
+ []
+
+
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 119--122
+[]\OT1/ptm/m/n/10 Michael Gut-mann and Aapo Hyv[]arinen.  Noise-
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 149--152
+\OT1/ptm/m/n/10 lami, and Aaron van den Oord.  Data-efficient im-
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 149--152
+\OT1/ptm/m/n/10 age recog-ni-tion with con-trastive pre-dic-tive cod-ing.
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 154--157
+[]\OT1/ptm/m/n/10 R De-von Hjelm, Alex Fe-dorov, Samuel Lavoie-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 194--197
+\OT1/ptm/m/n/10 Kaim-ing He, Manohar Paluri, Yix-uan Li, Ash-win
+ []
+
+
+
+[9]
+Underfull \hbox (badness 2799) in paragraph at lines 204--207
+[]\OT1/ptm/m/n/10 Deepak Pathak, Philipp Kra-hen-buhl, Jeff Don-ahue,
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 258--262
+[]\OT1/ptm/m/n/10 Zhirong Wu, Yuan-jun Xiong, Stella Yu, and Dahua
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 258--262
+\OT1/ptm/m/n/10 ver-sion ac-cessed at: [][]$\OT1/pcr/m/n/10 https : / / arxiv . org / abs /
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 269--272
+[]\OT1/ptm/m/n/10 Mang Ye, Xu Zhang, Pong C Yuen, and Shih-Fu
+ []
+
+
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+
+
+[10] (./mainText.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `mainText.out' has not changed.
+(rerunfilecheck)             Checksum: B5F63ECD1B89D6810AA445DB26A88458;2136.
+ ) 
+Here is how much of TeX's memory you used:
+ 11823 strings out of 473190
+ 183002 string characters out of 5716853
+ 627599 words of memory out of 5000000
+ 34769 multiletter control sequences out of 15000+600000
+ 592261 words of font info for 99 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,8n,79p,1101b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<f:/laTex/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on mainText.pdf (10 pages, 960099 bytes).
+PDF statistics:
+ 482 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -142,11 +142,12 @@ encoder, is proposed to maintain consistency.
 MoCo is a mechanism for building dynamic dictionar-
 ies for contrastive learning, and can be used with various
 pretext tasks. In this paper, we follow a simple instance
-discrimination task [61, 63, 2]: a query matches a key if
+discrimination task \cite{61_wu2018unsupervised, 63_he2019momentum, 2_bachman2019learning}:
+a query matches a key if
 they are encoded views (e.g., different crops) of the same
 image. Using this pretext task, MoCo shows competitive
 results under the common protocol of linear classiﬁcation
-in the ImageNet dataset [11].
+in the ImageNet dataset \cite{11_deng2009imagenet}.
 A main purpose of unsupervised learning is to pre-train
 representations (i.e., features) that can be transferred to
 downstream tasks by ﬁne-tuning. We show that in 7 down-
@@ -172,55 +173,55 @@ often be investigated independently of pretext tasks. MoCo
 focuses on the loss function aspect. Next we discuss related
 studies with respect to these two aspects.
 Loss functions. A common way of deﬁning a loss function
-is to measure the difference between a model’s prediction
+is to measure the difference between a model's prediction
 and a ﬁxed target, such as reconstructing the input pixels
 (e.g., auto-encoders) by L1 or L2 losses, or classifying the
-input into pre-deﬁned categories (e.g., eight positions [13],
-color bins [64]) by cross-entropy or margin-based losses.
+input into pre-deﬁned categories (e.g., eight positions \cite{13_doersch2015unsupervised},
+color bins \cite{64_zhang2016colorful}) by cross-entropy or margin-based losses.
 Other alternatives, as described next, are also possible.
-Contrastive losses [29] measure the similarities of sam-
+Contrastive losses \cite{29_hadsell2006dimensionality} measure the similarities of sam-
 ple pairs in a representation space. Instead of matching an
 input to a ﬁxed target, in contrastive loss formulations the
 target can vary on-the-ﬂy during training and can be deﬁned
 in terms of the data representation computed by a network
-[29]. Contrastive learning is at the core of several recent
-works on unsupervised learning [61, 46, 36, 66, 35, 56, 2],
+\cite{29_hadsell2006dimensionality}. Contrastive learning is at the core of several recent
+works on unsupervised learning \cite{61_wu2018unsupervised, 46_oord2018representation, 36_hjelm2019learning, 66_zhuang2019local, 35_henaff2019data, 56_tian2019contrastive, 2_bachman2019learning},
 which we elaborate on later in context (Sec. 3.1).
-Adversarial losses [24] measure the difference between
+Adversarial losses \cite{24_goodfellow2014generative} measure the difference between
 probability distributions. It is a widely successful technique
 for unsupervised data generation. Adversarial methods for
-representation learning are explored in [15, 16]. There are
-relations (see [24]) between generative adversarial networks
-and noise-contrastive estimation (NCE) [28].
+representation learning are explored in \cite{15_donahue2016adversarial, 16_dumoulin2016adversarial}. There are
+relations (see \cite{24_goodfellow2014generative}) between generative adversarial networks
+and noise-contrastive estimation (NCE) \cite{28_gutmann2010noise}.
 Pretext tasks. A wide range of pretext tasks have been pro-
 posed. Examples include recovering the input under some
-corruption, e.g., denoising auto-encoders [58], context auto-
-encoders [48], or cross-channel auto-encoders (coloriza-
-tion) [64, 65]. Some pretext tasks form pseudo-labels by,
-e.g., transformations of a single (“exemplar”) image [17],
-patch orderings [13, 45], tracking [59] or segmenting ob-
-jects [47] in videos, or clustering features [3, 4].
+corruption, e.g., denoising auto-encoders \cite{58_vincent2010stacked}, context auto-
+encoders \cite{48_pathak2016context}, or cross-channel auto-encoders (coloriza-
+tion) \cite{64_zhang2016colorful, 65_larsson2016learning}. Some pretext tasks form pseudo-labels by,
+e.g., transformations of a single (“exemplar”) image \cite{17_dosovitskiy2014discriminative},
+patch orderings \cite{13_doersch2015unsupervised, 45_noroozi2016unsupervised}, tracking \cite{59_wang2015unsupervised} or segmenting ob-
+jects \cite{47_vondrick2016generating} in videos, or clustering features \cite{3_caron2018deep, 4_caron2019unsupervised}.
 Contrastive learning vs. pretext tasks. Various pretext
 tasks can be based on some form of contrastive loss func-
-tions. The instance discrimination method [61] is related
-to the exemplar-based task [17] and NCE [28]. The pretext
-task in contrastive predictive coding (CPC) [46] is a form
-of context auto-encoding [48], and in contrastive multiview
-coding (CMC) [56] it is related to colorization [64].
+tions. The instance discrimination method \cite{61_wu2018unsupervised} is related
+to the exemplar-based task \cite{17_dosovitskiy2014discriminative} and NCE \cite{28_gutmann2010noise}. The pretext
+task in contrastive predictive coding (CPC) \cite{46_oord2018representation} is a form
+of context auto-encoding \cite{48_pathak2016context}, and in contrastive multiview
+coding (CMC) \cite{56_tian2019contrastive} it is related to colorization \cite{64_zhang2016colorful}.
 
 \section{Method}
 \subsection{Contrastive Learning as Dictionary Look-up}
-Contrastive learning [29], and its recent developments,
+Contrastive learning \cite{29_hadsell2006dimensionality}, and its recent developments,
 can be thought of as training an encoder for a dictionary
 look-up task, as described next.
 Consider an encoded query q and a set of encoded sam-
 ples {k0, k1, k2, ...} that are the keys of a dictionary. As-
 sume that there is a single key (denoted as k+) in the dic-
-tionary that q matches. A contrastive loss [29] is a function
+tionary that q matches. A contrastive loss \cite{29_hadsell2006dimensionality} is a function
 whose value is low when q is similar to its positive key k+
 and dissimilar to all other keys (considered negative keys
 for q). With similarity measured by dot product, a form of
-a contrastive loss function, called InfoNCE [46], is consid-
+a contrastive loss function, called InfoNCE \cite{46_oord2018representation}, is consid-
 ered in this paper:
 
 %公式1
@@ -229,21 +230,21 @@ ered in this paper:
     \label{eq:equation1}
 \end{equation}
 
-where $\tau$ is a temperature hyper-parameter per [61]. The sum
+where $\tau$ is a temperature hyper-parameter per \cite{61_wu2018unsupervised}. The sum
 is over one positive and K negative samples. Intuitively,
 this loss is the log loss of a (K+1)-way softmax-based clas-
 siﬁer that tries to classify q as k+. Contrastive loss functions
-can also be based on other forms [29, 59, 61, 36], such as
+can also be based on other forms \cite{29_hadsell2006dimensionality, 59_wang2015unsupervised, 61_wu2018unsupervised, 36_hjelm2019learning}, such as
 margin-based losses and variants of NCE losses.
 The contrastive loss serves as an unsupervised objective
 function for training the encoder networks that represent the
-queries and keys [29]. In general, the query representation
+queries and keys \cite{29_hadsell2006dimensionality}. In general, the query representation
 is q = fq(xq ) where fq is an encoder network and xq is a
 query sample (likewise, k = fk(xk)). Their instantiations
 depend on the speciﬁc pretext task. The input xq and xk can
-be images [29, 61, 63], patches [46], or context consisting a
-set of patches [46]. The networks fq and fk can be identical
-[29, 59, 63], partially shared [46, 36, 2], or different [56].
+be images \cite{29_hadsell2006dimensionality, 61_wu2018unsupervised, 63_he2019momentum}, patches \cite{46_oord2018representation}, or context consisting a
+set of patches \cite{46_oord2018representation}. The networks fq and fk can be identical
+\cite{29_hadsell2006dimensionality, 59_wang2015unsupervised, 63_he2019momentum}, partially shared \cite{46_oord2018representation, 36_hjelm2019learning, 2_bachman2019learning}, or different \cite{56_tian2019contrastive}.
 
 \begin{figure*}[htbp]
     \centering
@@ -251,7 +252,7 @@ set of patches [46]. The networks fq and fk can be identical
     \caption{Conceptual comparison of three contrastive loss mechanisms (empirical comparisons are in Figure 3 and Table 3). Here we
     illustrate one pair of query and key. The three mechanisms differ in how the keys are maintained and how the key encoder is updated.
     (a): The encoders for computing the query and key representations are updated end-to-end by back-propagation (the two encoders can
-    be different). (b): The key representations are sampled from a memory bank [61]. (c): MoCo encodes the new keys on-the-ﬂy by a
+    be different). (b): The key representations are sampled from a memory bank \cite{61_wu2018unsupervised}. (c): MoCo encodes the new keys on-the-ﬂy by a
     momentum-updated encoder, and maintains a queue (not illustrated in this ﬁgure) of keys.} % 图片标题
     \label{fig:Figure 2} % 图片标签
 \end{figure*}
@@ -316,20 +317,20 @@ mechanism for using contrastive losses. We compare it with
 two existing general mechanisms in Figure 2. They exhibit
 different properties on the dictionary size and consistency.
 The end-to-end update by back-propagation is a natural
-mechanism (e.g., [29, 46, 36, 63, 2, 35], Figure 2a). It uses
+mechanism (e.g., \cite{29_hadsell2006dimensionality, 46_oord2018representation, 36_hjelm2019learning, 63_he2019momentum, 2_bachman2019learning, 35_henaff2019data}, Figure 2a). It uses
 samples in the current mini-batch as the dictionary, so the
 keys are consistently encoded (by the same set of encoder
 parameters). But the dictionary size is coupled with the
 mini-batch size, limited by the GPU memory size. It is also
-challenged by large mini-batch optimization [25]. Some re-
-cent methods [46, 36, 2] are based on pretext tasks driven by
+challenged by large mini-batch optimization \cite{25_goyal2017accurate}. Some re-
+cent methods \cite{46_oord2018representation, 36_hjelm2019learning, 2_bachman2019learning} are based on pretext tasks driven by
 local positions, where the dictionary size can be made larger
 by multiple positions. But these pretext tasks may require
-special network designs such as patchifying the input [46]
-or customizing the receptive field size [2], which may com-
+special network designs such as patchifying the input \cite{46_oord2018representation}
+or customizing the receptive field size \cite{2_bachman2019learning}, which may com-
 plicate the transfer of these networks to downstream tasks.
 Another mechanism is the memory bank approach pro-
-posed by [61] (Figure 2b). A memory bank consists of the
+posed by \cite{61_wu2018unsupervised} (Figure 2b). A memory bank consists of the
 representations of all samples in the dataset. The dictionary
 for each mini-batch is randomly sampled from the memory
 bank with no back-propagation, so it can support a large
@@ -337,7 +338,7 @@ dictionary size. However, the representation of a sample in
 
 %伪代码
 \FloatBarrier
-% \clearpage % 强制分页
+\clearpage % 强制分页
 \begin{algorithm}[htbp]
     \caption{Pseudocode of MoCo in a PyTorch-like style.}
     \label{alg:al1}
@@ -387,14 +388,14 @@ dictionary size. However, the representation of a sample in
     \end{algorithmic}
 \end{algorithm}
 
-% \vspace{-2.6em} % 调整间距
+\vspace{-2.6em} % 调整间距
 \textbf{\small bmm: batch matrix multiplication; mm: matrix multiplication; cat: concatenation.}
 
 the memory bank was updated when it was last seen, so the
 sampled keys are essentially about the encoders at multiple
 different steps all over the past epoch and thus are less con-
 sistent. A momentum update is adopted on the memory
-bank in [61]. Its momentum update is on the representa-
+bank in \cite{61_wu2018unsupervised}. Its momentum update is on the representa-
 tions of the same sample, not the encoder. This momentum
 update is irrelevant to our method, because MoCo does not
 keep track of every sample. Moreover, our method is more
@@ -406,34 +407,34 @@ Sec. 4 empirically compares these three mechanisms.
 Contrastive learning can drive a variety of pretext tasks.
 As the focus of this paper is not on designing a new pretext
 task, we use a simple one mainly following the instance
-discrimination task in [61], to which some recent works [63,
-2] are related.
-Following [61], we consider a query and a key as a pos-
+discrimination task in \cite{61_wu2018unsupervised},
+to which some recent works \cite{63_ye2019unsupervised, 2_bachman2019learning} are related.
+Following \cite{61_wu2018unsupervised}, we consider a query and a key as a pos-
 itive pair if they originate from the same image, and other-
-wise as a negative sample pair. Following [63, 2], we take
+wise as a negative sample pair. Following \cite{63_ye2019unsupervised, 2_bachman2019learning}, we take
 two random “views” of the same image under random data
 augmentation to form a positive pair. The queries and keys
 are respectively encoded by their encoders, $f_q$ and $f_k$. The
-encoder can be any convolutional neural network [39].
+encoder can be any convolutional neural network \cite{39_lecun1989backpropagation}.
 Algorithm 1 provides the pseudo-code of MoCo for this
 pretext task. For the current mini-batch, we encode the
 queries and their corresponding keys, which form the posi-
 tive sample pairs. The negative samples are from the queue.
-Technical details. We adopt a ResNet [33] as the encoder,
+Technical details. We adopt a ResNet \cite{39_lecun1989backpropagation} as the encoder,
 whose last fully-connected layer (after global average pool-
-ing) has a ﬁxed-dimensional output (128-D [61]). This out-
-put vector is normalized by its L2-norm [61]. This is the
+ing) has a ﬁxed-dimensional output (128-D \cite{61_wu2018unsupervised}). This out-
+put vector is normalized by its L2-norm \cite{61_wu2018unsupervised}. This is the
 representation of the query or key. The temperature $\tau$ in
-Eqn.(1) is set as 0.07 [61]. The data augmentation setting
-follows [61]: a 224$\times$224-pixel crop is taken from a ran-
+Eqn.(1) is set as 0.07 \cite{61_wu2018unsupervised}. The data augmentation setting
+follows \cite{61_wu2018unsupervised}: a 224$\times$224-pixel crop is taken from a ran-
 domly resized image, and then undergoes random color jit-
 tering, random horizontal ﬂip, and random grayscale con-
 version, all available in PyTorch's torchvision package.
 Shufﬂing BN. Our encoders fq and fk both have Batch
-Normalization (BN) [37] as in the standard ResNet [33]. In
+Normalization (BN) \cite{37_ioffe2015batch} as in the standard ResNet \cite{33_he2016deep}. In
 experiments, we found that using BN prevents the model
 from learning good representations, as similarly reported
-in [35] (which avoids using BN). The model appears to
+in \cite{35_henaff2019data} (which avoids using BN). The model appears to
 “cheat” the pretext task and easily ﬁnds a low-loss solu-
 tion. This is possibly because the intra-batch communica-
 tion among samples (caused by BN) leaks information.
@@ -455,15 +456,15 @@ ent mini-batches in the past.
 
 \section{Experiments}
 We study unsupervised training performed in:
-ImageNet-1M (IN-1M): This is the ImageNet [11] train-
+ImageNet-1M (IN-1M): This is the ImageNet \cite{11_russakovsky2015imagenet} train-
 ing set that has $\sim$1.28 million images in 1000 classes (often
 called ImageNet-1K; we count the image number instead,
 as classes are not exploited by unsupervised learning). This
 dataset is well-balanced in its class distribution, and its im-
 ages generally contain iconic view of objects.
-Instagram-1B (IG-1B): Following [44], this is a dataset
+Instagram-1B (IG-1B): Following \cite{44_mahajan2018exploring}, this is a dataset
 of $\sim$1 billion (940M) public images from Instagram. The
-images are from $\sim$1500 hashtags [44] that are related to the
+images are from $\sim$1500 hashtags \cite{44_mahajan2018exploring} that are related to the
 ImageNet categories. This dataset is relatively uncurated
 comparing to IN-1M, and has a long-tailed, unbalanced
 distribution of real-world data. This dataset contains both
@@ -473,10 +474,10 @@ decay is 0.0001 and the SGD momentum is 0.9. For IN-1M,
 we use a mini-batch size of 256 (N in Algorithm 1) in 8
 GPUs, and an initial learning rate of 0.03. We train for 200
 epochs with the learning rate multiplied by 0.1 at 120 and
-160 epochs [61], taking $\sim$53 hours training ResNet-50. For
+160 epochs \cite{61_wu2018unsupervised}, taking $\sim$53 hours training ResNet-50. For
 IG-1B, we use a mini-batch size of 1024 in 64 GPUs, and
 a learning rate of 0.12 which is exponentially decayed by
-0.9× after every 62.5k iterations (64M images). We train
+0.9$\times $ after every 62.5k iterations (64M images). We train
 for 1.25M iterations ($\sim$1.4 epochs of IG-1B), taking $\sim$6 days
 for ResNet-50.
 
@@ -492,7 +493,7 @@ a ResNet, for 100 epochs. We report 1-crop, top-1 classifi-
 cation accuracy on the ImageNet validation set.
 For this classifier, we perform a grid search and find the
 optimal initial learning rate is 30 and weight decay is 0
-(similarly reported in [56]). These hyper-parameters per-
+(similarly reported in \cite{56_tian2019contrastive}). These hyper-parameters per-
 form consistently well for all ablation entries presented in
 this subsection. These hyper-parameter values imply that
 the feature distributions (e.g., magnitudes) can be substan-
@@ -507,7 +508,7 @@ loss function, Eqn.(1). As such, the comparison is solely on
 the three mechanisms.
 The results are in Figure 3. Overall, all three mecha-
 nisms beneﬁt from a larger K. A similar trend has been
-observed in [61, 56] under the memory bank mechanism,
+observed in \cite{61_wu2018unsupervised, 56_tian2019contrastive} under the memory bank mechanism,
 while here we show that this trend is more general and can
 be seen in all mechanisms. These results support our moti-
 vation of building a large dictionary.
@@ -516,11 +517,11 @@ when K is small. However, the dictionary size is limited
 by the mini-batch size due to the end-to-end requirement.
 Here the largest mini-batch a high-end machine (8 Volta
 32GB GPUs) can afford is 1024. More essentially, large
-mini-batch training is an open problem [25]: we found it
-necessary to use the linear learning rate scaling rule [25]
+mini-batch training is an open problem \cite{25_goyal2017accurate}: we found it
+necessary to use the linear learning rate scaling rule \cite{25_goyal2017accurate}
 here, without which the accuracy drops (by $\sim$2% with a
 1024 mini-batch). But optimizing with a larger mini-batch
-is harder [25], and it is questionable whether the trend can
+is harder \cite{25_goyal2017accurate}, and it is questionable whether the trend can
 be extrapolated into a larger K even if memory is sufﬁcient.
 
 \begin{figure}[htbp]
@@ -535,27 +536,27 @@ be extrapolated into a larger K even if memory is sufﬁcient.
     \label{fig:Figure 3} % 图片标签
 \end{figure}
 
-The memory bank [61] mechanism can support a larger
+The memory bank \cite{61_wu2018unsupervised} mechanism can support a larger
 dictionary size. But it is 2.6% worse than MoCo. This is
 inline with our hypothesis: the keys in the memory bank
 are from very different encoders all over the past epoch and
 they are not consistent. Note the memory bank result of
-58.0% reﬂects our improved implementation of [61].2
+58.0% reﬂects our improved implementation of \cite{61_wu2018unsupervised}.2
 Ablation: momentum. The table below shows ResNet-50
 accuracy with different MoCo momentum values (m in
 Eqn.(2)) used in pre-training (K = 4096 here) :
 
 \begin{table}[htbp]
     \centering
-    \begin{tabular}{|c|c|} % 定义两列，每列居中对齐，并用竖线分隔
+    \begin{tabular}{c|c} % 定义两列，无外边框
+        momentum m & 0 0.9 0.99 0.999 0.9999 \\ 
         \hline % 水平线
-        momentum m & \multicolumn{5}{c|}{0 0.9 0.99 0.999 0.9999} \\ \hline
-        accuracy (%) & fail & 55.2 & 57.8 & 59.0 & 5809 \\ \hline
+        accuracy (\%) & fail 55.2 57.8 59.0 5809 \\ 
     \end{tabular}
     \label{tab:tab} % 表格标签
 \end{table}
 
-It performs reasonably well when m is in 0.99 ∼ 0.9999,
+It performs reasonably well when m is in 0.99 $\sim $ 0.9999,
 showing that a slowly progressing (i.e., relatively large mo-
 mentum) key encoder is beneﬁcial. When m is too small
 (e.g., 0.9), the accuracy drops considerably; at the extreme
@@ -565,9 +566,9 @@ building a consistent dictionary.
 Comparison with previous results. Previous unsuper-
 vised learning methods can differ substantially in model
 sizes. For a fair and comprehensive comparison, we report
-accuracy vs. #parameters3 trade-offs. Besides ResNet-50
-(R50) [33], we also report its variants that are 2× and 4×
-wider (more channels), following [38].4 We set K = 65536
+accuracy vs. \#parameters3 trade-offs. Besides ResNet-50
+(R50) \cite{33_he2016deep}, we also report its variants that are 2$\times $ and 4$\times $
+wider (more channels), following \cite{38_he2017maskrcnn}.4 We set K = 65536
 and m = 0.999. Table 1 is the comparison.
 MoCo with R50 performs competitively and achieves
 60.6% accuracy, better than all competitors of similar
@@ -577,34 +578,72 @@ Notably, we achieve competitive results using a standard
 ResNet-50 and require no speciﬁc architecture designs, e.g.,
 
 % table1
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Pic/table1.png} % 图片路径和宽度
+    \caption{Comparison under the linear classiﬁcation protocol
+    on ImageNet. The ﬁgure visualizes the table. All are reported as
+    unsupervised pre-training on the ImageNet-1M training set, fol-
+    lowed by supervised linear classiﬁcation trained on frozen fea-
+    tures, evaluated on the validation set. The parameter counts are
+    those of the feature extractors. We compare with improved re-
+    implementations if available (referenced after the numbers).
+    Notations: R101$\ast $/R170$\ast $ is ResNet-101/170 with the last residual stage
+    removed \cite{14_doersch2017multi, 46_oord2018representation, 35_henaff2019data},
+    and R170 is made wider \cite{35_henaff2019data}; Rv50 is a reversible
+    net \cite{23_gomez2017reversible}, RX50 is ResNeXt-50-32$\times $8d \cite{62_xie2017residual}.
+    $\dagger$: Pre-training uses FastAutoAugment \cite{40_lim2019fast} that is supervised by ImageNet labels.} % 图片标题
+    \label{fig:Table 1} % 图片标签
+\end{figure}
 
-patchiﬁed inputs [46, 35], carefully tailored receptive ﬁelds
-[2], or combining two networks [56]. By using an architec-
+patchiﬁed inputs \cite{46_oord2018representation, 35_henaff2019data}, carefully tailored receptive ﬁelds
+\cite{2_bachman2019learning}, or combining two networks \cite{56_tian2019contrastive}. By using an architec-
 ture that is not customized for the pretext task, it is easier to
 transfer features to a variety of visual tasks and make com-
 parisons, studied in the next subsection.
 This paper's focus is on a mechanism for general con-
 trastive learning; we do not explore orthogonal factors (such
 as speciﬁc pretext tasks) that may further improve accuracy.
-As an example, “MoCo v2” [8], an extension of a prelim-
+As an example, “MoCo v2” \cite{8_chen2020improved}, an extension of a prelim-
 inary version of this manuscript, achieves 71.1% accuracy
 with R50 (up from 60.6%), given small changes on the data
-augmentation and output projection head [7]. We believe
+augmentation and output projection head \cite{7_chen2020simple}. We believe
 that this additional result shows the generality and robust-
 ness of the MoCo framework.
 
 % table2
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Pic/table2.png} % 图片路径和宽度
+    \caption{Object detection ﬁne-tuned on PASCAL VOC
+    trainval07+12. Evaluation is on test2007: AP50 (default
+    VOC metric), AP (COCO-style), and AP75, averaged over 5 trials.
+    All are ﬁne-tuned for 24k iterations ($\sim $23 epochs). In the brackets
+    are the gaps to the ImageNet supervised pre-training counterpart.
+    In green are the gaps of at least +0.5 point.} % 图片标题
+    \label{fig:Table 2} % 图片标签
+\end{figure}
 % table3
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Pic/table3.png} % 图片路径和宽度
+    \caption{Comparison of three contrastive loss mechanisms on
+    PASCAL VOC object detection, ﬁne-tuned on trainval07+12
+    and evaluated on test2007 (averages over 5 trials). All models
+    are implemented by us (Figure 3), pre-trained on IN-1M, and ﬁne-
+    tuned using the same settings as in Table 2.} % 图片标题
+    \label{fig:Table 3} % 图片标签
+\end{figure}
 
 \subsection{Transferring Features}
 A main goal of unsupervised learning is to learn features
 that are transferrable. ImageNet supervised pre-training is
 most inﬂuential when serving as the initialization for ﬁne-
-tuning in downstream tasks (e.g., [21, 20, 43, 52]). Next
+tuning in downstream tasks (e.g., \cite{21_girshick2014rich,20_girshick2015fast, 43_long2015fully, 52_ren2015faster}). Next
 we compare MoCo with ImageNet supervised pre-training,
-transferred to various tasks including PASCAL VOC [18],
-COCO [42], etc. As prerequisites, we discuss two important
-issues involved [31]: normalization and schedules.
+transferred to various tasks including PASCAL VOC \cite{18_everingham2010pascal},
+COCO \cite{42_lin2014microsoft}, etc. As prerequisites, we discuss two important
+issues involved \cite{31_he2019rethinking}: normalization and schedules.
 Normalization. As noted in Sec. 4.1, features produced by
 unsupervised pre-training can have different distributions
 compared with ImageNet supervised pre-training. But a
@@ -612,23 +651,34 @@ system for a downstream task often has hyper-parameters
 (e.g., learning rates) selected for supervised pre-training. To
 relieve this problem, we adopt feature normalization during
 ﬁne-tuning: we ﬁne-tune with BN that is trained (and syn-
-chronized across GPUs [49]), instead of freezing it by an
-afﬁne layer [33]. We also use BN in the newly initialized
-layers (e.g., FPN [41]), which helps calibrate magnitudes.
+chronized across GPUs \cite{49_peng2018megdet}), instead of freezing it by an
+afﬁne layer \cite{33_he2016deep}. We also use BN in the newly initialized
+layers (e.g., FPN \cite{41_lin2017feature}), which helps calibrate magnitudes.
 We perform normalization when ﬁne-tuning supervised
 and unsupervised pre-training models. MoCo uses the same
 hyper-parameters as the ImageNet supervised counterpart.
 Schedules. If the ﬁne-tuning schedule is long enough,
 training detectors from random initialization can be strong
 baselines, and can match the ImageNet supervised counter-
-part on COCO [31]. Our goal is to investigate transferabil-ity
+part on COCO \cite{31_he2019rethinking}. Our goal is to investigate transferabil-ity
 
 % table4
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Pic/table4.png} % 图片路径和宽度
+    \caption{Comparison with previous methods on object detection ﬁne-tuned on PASCAL VOC trainval2007. Evaluation is on
+    test2007. The ImageNet supervised counterparts are from the respective papers, and are reported as having the same structure as the
+    respective unsupervised pre-training counterparts. All entries are based on the C4 backbone. The models in \cite{14_doersch2017multi} are R101 v2 \cite{34_he2016identity}, and
+    others are R50. The RelPos (relative position) \cite{13_doersch2015unsupervised} result is the best single-task case in the Multi-task paper \cite{14_doersch2017multi}. The Jigsaw \cite{45_noroozi2016unsupervised} result is
+    from the ResNet-based implementation in \cite{26_goyal2019scaling}. Our results are with 9k-iteration ﬁne-tuning, averaged over 5 trials. In the brackets are the
+    gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.} % 图片标题
+    \label{fig:Table 4} % 图片标签
+\end{figure*}
 
 of features, so our experiments are on controlled sched-
-ules, e.g., the 1$\times $ ($\sim $12 epochs) or 2$\times $ schedules [22] for
-COCO, in contrast to 6$\times $$\sim $9$\times $ in [31]. On smaller datasets
-like VOC, training longer may not catch up [31].
+ules, e.g., the 1$\times $ ($\sim $12 epochs) or 2$\times $ schedules \cite{22_girshick2018detectron} for
+COCO, in contrast to 6$\times $$\sim $9$\times $ in \cite{31_he2019rethinking}. On smaller datasets
+like VOC, training longer may not catch up \cite{31_he2019rethinking}.
 Nonetheless, in our ﬁne-tuning, MoCo uses the same
 schedule as the ImageNet supervised counterpart, and ran-
 dom initialization results are provided as references.
@@ -638,9 +688,9 @@ at a disadvantage. Even so, MoCo is competitive. Doing so
 also makes it feasible to present comparisons on multiple
 datasets/tasks, without extra hyper-parameter search.
 \subsubsection{PASCAL VOC Object Detection}
-Setup. The detector is Faster R-CNN [52] with a backbone
-of R50-dilated-C5 or R50-C4 [32] (details in appendix),
-with BN tuned, implemented in [60]. We ﬁne-tune all lay-
+Setup. The detector is Faster R-CNN \cite{52_ren2015faster} with a backbone
+of R50-dilated-C5 or R50-C4 \cite{32_he2017mask} (details in appendix),
+with BN tuned, implemented in \cite{60_wu2019detectron2}. We ﬁne-tune all lay-
 ers end-to-end. The image scale is [480, 800] pixels during
 training and 800 at inference. The same setup is used for all
 entries, including the supervised pre-training baseline. We
@@ -656,7 +706,7 @@ MoCo with IN-1M or IG-1B is better than the supervised
 counterpart: up to +0.9 AP50, +3.7 AP, and +4.9 AP75.
 Interestingly, the transferring accuracy depends on the
 detector structure. For the C4 backbone, by default used
-in existing ResNet-based results [14, 61, 26, 66], the ad-
+in existing ResNet-based results \cite{14_doersch2017multi, 61_wu2018unsupervised, 26_goyal2019scaling, 66_zhuang2019local}, the ad-
 vantage of unsupervised pre-training is larger. The relation
 between pre-training vs. detector structures has been veiled
 in the past, and should be a factor under consideration.
@@ -681,18 +731,18 @@ using the C4 backbone. The comparison is in Table 4.
 For the AP50 metric, no previous method can catch
 up with its respective supervised pre-training counterpart.
 MoCo pre-trained on any of IN-1M, IN-14M (full Ima-
-geNet), YFCC-100M [55], and IG-1B can outperform the
+geNet), YFCC-100M \cite{55_thomee2016yfcc100m}, and IG-1B can outperform the
 supervised baseline. Large gains are seen in the more strin-
 gent metrics: up to +5.2 AP and +9.0 AP75. These gains are
 larger than the gains seen in trainval07+12 (Table 2b).
 
 \subsubsection{COCO Object Detection and Segmentation}
-Setup. The model is Mask R-CNN [32] with the FPN [41]
-or C4 backbone, with BN tuned, implemented in [60]. The
+Setup. The model is Mask R-CNN \cite{32_he2017mask} with the FPN \cite{41_lin2017feature}
+or C4 backbone, with BN tuned, implemented in \cite{60_wu2019detectron2}. The
 image scale is in [640, 800] pixels during training and is 800
 at inference. We ﬁne-tune all layers end-to-end. We ﬁne-
 tune on the train2017 set ($\sim $118k images) and evaluate
-on val2017. The schedule is the default 1$\times $ or 2$\times $ in [22].
+on val2017. The schedule is the default 1$\times $ or 2$\times $ in \cite{22_girshick2018detectron}.
 Results. Table 5 shows the results on COCO with the FPN
 (Table 5a, b) and C4 (Table 5c, d) backbones. With the
 1$\times $ schedule, all models (including the ImageNet super-
@@ -706,13 +756,13 @@ Table 6 shows more downstream tasks (implementation de-
 tails in appendix). Overall, MoCo performs competitively
 
 
-\begin{figure}[htbp]
+\begin{figure*}[htbp]
     \centering
     \includegraphics[width=0.8\linewidth]{Pic/table5.png} % 图片路径和宽度
     \caption{Object detection and instance segmentation ﬁne-tuned on COCO: bounding-box AP (APbb) and mask AP (APmk) evaluated
     on val2017. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.} % 图片标题
     \label{fig:Table 5} % 图片标签
-\end{figure}
+\end{figure*}
 
 \begin{figure}[htbp]
     \centering
@@ -730,22 +780,22 @@ with ImageNet supervised pre-training:
 COCO keypoint detection: supervised pre-training has
 no clear advantage over random initialization, whereas
 MoCo outperforms in all metrics.
-COCO dense pose estimation [1]: MoCo substantially
+COCO dense pose estimation \cite{1_guler2018densepose}: MoCo substantially
 outperforms supervised pre-training, e.g., by 3.7 points in
 APdp
 75, in this highly localization-sensitive task.
-LVIS v0.5 instance segmentation [27]: this task has
+LVIS v0.5 instance segmentation \cite{27_gupta2019lvis}: this task has
 $\sim $1000 long-tailed distributed categories. Speciﬁcally in
 LVIS for the ImageNet supervised baseline, we ﬁnd ﬁne-
 tuning with frozen BN (24.4 APmk) is better than tunable
 BN (details in appendix). So we compare MoCo with the
 better supervised pre-training variant in this task. MoCo
 with IG-1B surpasses it in all metrics.
-Cityscapes instance segmentation [10]: MoCo with IG-1B
+Cityscapes instance segmentation \cite{10_cordts2016cityscapes}: MoCo with IG-1B
 is on par with its supervised pre-training counterpart in
 APmk, and is higher in APmk
 50 .
-Semantic segmentation: On Cityscapes [10], MoCo out-
+Semantic segmentation: On Cityscapes \cite{10_cordts2016cityscapes}, MoCo out-
 performs its supervised pre-training counterpart by up to 0.9
 point. But on VOC semantic segmentation, MoCo is worse
 by at least 0.8 point, a negative case we have observed.
@@ -754,7 +804,7 @@ supervised pre-training counterpart in 7 detection or seg-
 mentation tasks.5 Besides, MoCo is on par on Cityscapes
 instance segmentation, and lags behind on VOC semantic
 segmentation; we show another comparable case on iNatu-
-ralist [57] in appendix. Overall, MoCo has largely closed
+ralist \cite{57_vanhorn2018inaturalist} in appendix. Overall, MoCo has largely closed
 the gap between unsupervised and supervised representa-
 tion learning in multiple vision tasks.
 Remarkably, in all these tasks, MoCo pre-trained on
@@ -771,13 +821,14 @@ provement from IN-1M to IG-1B is consistently noticeable
 but relatively small, suggesting that the larger-scale data
 may not be fully exploited. We hope an advanced pretext
 task will improve this. Beyond the simple instance discrim-
-ination task [61], it is possible to adopt MoCo for pretext
-tasks like masked auto-encoding, e.g., in language [12] and
-in vision [46]. We hope MoCo will be useful with other
+ination task \cite{61_wu2018unsupervised}, it is possible to adopt MoCo for pretext
+tasks like masked auto-encoding, e.g., in language \cite{12_devlin2019bert} and
+in vision \cite{46_oord2018representation}. We hope MoCo will be useful with other
 pretext tasks that involve contrastive learning.
 
 % Bibliography section
 \bibliographystyle{plain}
 \bibliography{references}
+
 
 \end{document}
