@@ -9,24 +9,28 @@
 \citation{61_wu2018unsupervised,46_oord2018representation,36_hjelm2019learning,66_zhuang2019local,35_henaff2019data,56_tian2019contrastive,2_bachman2019learning}
 \citation{29_hadsell2006dimensionality}
 \citation{29_hadsell2006dimensionality}
-\citation{61_wu2018unsupervised,63_he2019momentum,2_bachman2019learning}
+\citation{61_wu2018unsupervised,63_ye2019unsupervised,2_bachman2019learning}
 \citation{11_deng2009imagenet}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Momentum Contrast (MoCo) trains a visual represen- tation encoder by matching an encoded query q to a dictionary of encoded keys using a contrastive loss. The dictionary keys {k0, k1, k2, ...} are defined on-the-fly by a set of data samples. The dictionary is built as a queue, with the current mini-batch en- queued and the oldest mini-batch dequeued, decoupling it from the mini-batch size. The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder. This method enables a large and consistent dictionary for learning visual representations.}}{1}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:Figure 1}{{1}{1}{Momentum Contrast (MoCo) trains a visual represen- tation encoder by matching an encoded query q to a dictionary of encoded keys using a contrastive loss. The dictionary keys {k0, k1, k2, ...} are defined on-the-fly by a set of data samples. The dictionary is built as a queue, with the current mini-batch en- queued and the oldest mini-batch dequeued, decoupling it from the mini-batch size. The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder. This method enables a large and consistent dictionary for learning visual representations}{figure.caption.1}{}}
 \citation{13_doersch2015unsupervised}
 \citation{64_zhang2016colorful}
 \citation{29_hadsell2006dimensionality}
 \citation{29_hadsell2006dimensionality}
 \citation{61_wu2018unsupervised,46_oord2018representation,36_hjelm2019learning,66_zhuang2019local,35_henaff2019data,56_tian2019contrastive,2_bachman2019learning}
 \citation{24_goodfellow2014generative}
-\citation{15_donahue2016adversarial,16_dumoulin2016adversarial}
+\citation{15_donahue2017adversarial,16_donahue2019large}
 \citation{24_goodfellow2014generative}
 \citation{28_gutmann2010noise}
-\citation{58_vincent2010stacked}
+\citation{58_vincent2008denoising}
 \citation{48_pathak2016context}
-\citation{64_zhang2016colorful,65_larsson2016learning}
+\citation{64_zhang2016colorful,65_zhang2017splitbrain}
 \citation{17_dosovitskiy2014discriminative}
 \citation{13_doersch2015unsupervised,45_noroozi2016unsupervised}
 \citation{59_wang2015unsupervised}
-\citation{47_vondrick2016generating}
+\citation{47_pathak2017learning}
 \citation{3_caron2018deep,4_caron2019unsupervised}
 \citation{61_wu2018unsupervised}
 \citation{17_dosovitskiy2014discriminative}
@@ -35,38 +39,35 @@
 \citation{48_pathak2016context}
 \citation{56_tian2019contrastive}
 \citation{64_zhang2016colorful}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Momentum Contrast (MoCo) trains a visual represen- tation encoder by matching an encoded query q to a dictionary of encoded keys using a contrastive loss. The dictionary keys {k0, k1, k2, ...} are defined on-the-fly by a set of data samples. The dictionary is built as a queue, with the current mini-batch en- queued and the oldest mini-batch dequeued, decoupling it from the mini-batch size. The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder. This method enables a large and consistent dictionary for learning visual representations.}}{1}{figure.1}\protected@file@percent }
-\newlabel{fig:Figure 1}{{1}{1}{Momentum Contrast (MoCo) trains a visual represen- tation encoder by matching an encoded query q to a dictionary of encoded keys using a contrastive loss. The dictionary keys {k0, k1, k2, ...} are defined on-the-fly by a set of data samples. The dictionary is built as a queue, with the current mini-batch en- queued and the oldest mini-batch dequeued, decoupling it from the mini-batch size. The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder. This method enables a large and consistent dictionary for learning visual representations}{figure.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{1}{section.2}\protected@file@percent }
 \citation{29_hadsell2006dimensionality}
 \citation{29_hadsell2006dimensionality}
 \citation{46_oord2018representation}
 \citation{61_wu2018unsupervised}
 \citation{29_hadsell2006dimensionality,59_wang2015unsupervised,61_wu2018unsupervised,36_hjelm2019learning}
 \citation{29_hadsell2006dimensionality}
-\citation{29_hadsell2006dimensionality,61_wu2018unsupervised,63_he2019momentum}
+\citation{29_hadsell2006dimensionality,61_wu2018unsupervised,63_ye2019unsupervised}
 \citation{46_oord2018representation}
 \citation{46_oord2018representation}
-\citation{29_hadsell2006dimensionality,59_wang2015unsupervised,63_he2019momentum}
+\citation{29_hadsell2006dimensionality,59_wang2015unsupervised,63_ye2019unsupervised}
 \citation{46_oord2018representation,36_hjelm2019learning,2_bachman2019learning}
 \citation{56_tian2019contrastive}
 \citation{61_wu2018unsupervised}
 \citation{61_wu2018unsupervised}
-\citation{29_hadsell2006dimensionality,46_oord2018representation,36_hjelm2019learning,63_he2019momentum,2_bachman2019learning,35_henaff2019data}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Contrastive Learning as Dictionary Look-up}{2}{subsection.3.1}\protected@file@percent }
+\newlabel{eq:equation1}{{1}{2}{Contrastive Learning as Dictionary Look-up}{equation.1}{}}
+\citation{29_hadsell2006dimensionality,46_oord2018representation,36_hjelm2019learning,63_ye2019unsupervised,2_bachman2019learning,35_henaff2019data}
 \citation{25_goyal2017accurate}
 \citation{46_oord2018representation,36_hjelm2019learning,2_bachman2019learning}
 \citation{46_oord2018representation}
 \citation{2_bachman2019learning}
 \citation{61_wu2018unsupervised}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{2}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Contrastive Learning as Dictionary Look-up}{2}{subsection.3.1}\protected@file@percent }
-\newlabel{eq:equation1}{{1}{2}{Contrastive Learning as Dictionary Look-up}{equation.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Momentum Contrast}{2}{subsection.3.2}\protected@file@percent }
-\newlabel{eq:equation2}{{2}{2}{Momentum Contrast}{equation.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Conceptual comparison of three contrastive loss mechanisms (empirical comparisons are in Figure 3 and Table 3). Here we illustrate one pair of query and key. The three mechanisms differ in how the keys are maintained and how the key encoder is updated. (a): The encoders for computing the query and key representations are updated end-to-end by back-propagation (the two encoders can be different). (b): The key representations are sampled from a memory bank \cite  {61_wu2018unsupervised}. (c): MoCo encodes the new keys on-the-ﬂy by a momentum-updated encoder, and maintains a queue (not illustrated in this ﬁgure) of keys.}}{3}{figure.2}\protected@file@percent }
-\newlabel{fig:Figure 2}{{2}{3}{Conceptual comparison of three contrastive loss mechanisms (empirical comparisons are in Figure 3 and Table 3). Here we illustrate one pair of query and key. The three mechanisms differ in how the keys are maintained and how the key encoder is updated. (a): The encoders for computing the query and key representations are updated end-to-end by back-propagation (the two encoders can be different). (b): The key representations are sampled from a memory bank \cite {61_wu2018unsupervised}. (c): MoCo encodes the new keys on-the-ﬂy by a momentum-updated encoder, and maintains a queue (not illustrated in this ﬁgure) of keys}{figure.2}{}}
 \citation{61_wu2018unsupervised}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Conceptual comparison of three contrastive loss mechanisms (empirical comparisons are in Figure 3 and Table 3). Here we illustrate one pair of query and key. The three mechanisms differ in how the keys are maintained and how the key encoder is updated. (a): The encoders for computing the query and key representations are updated end-to-end by back-propagation (the two encoders can be different). (b): The key representations are sampled from a memory bank \cite  {61_wu2018unsupervised}. (c): MoCo encodes the new keys on-the-ﬂy by a momentum-updated encoder, and maintains a queue (not illustrated in this ﬁgure) of keys.}}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:Figure 2}{{2}{3}{Conceptual comparison of three contrastive loss mechanisms (empirical comparisons are in Figure 3 and Table 3). Here we illustrate one pair of query and key. The three mechanisms differ in how the keys are maintained and how the key encoder is updated. (a): The encoders for computing the query and key representations are updated end-to-end by back-propagation (the two encoders can be different). (b): The key representations are sampled from a memory bank \cite {61_wu2018unsupervised}. (c): MoCo encodes the new keys on-the-ﬂy by a momentum-updated encoder, and maintains a queue (not illustrated in this ﬁgure) of keys}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Momentum Contrast}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{eq:equation2}{{2}{3}{Momentum Contrast}{equation.2}{}}
 \citation{61_wu2018unsupervised}
 \citation{63_ye2019unsupervised,2_bachman2019learning}
 \citation{61_wu2018unsupervised}
@@ -80,22 +81,26 @@
 \citation{37_ioffe2015batch}
 \citation{33_he2016deep}
 \citation{35_henaff2019data}
-\citation{11_russakovsky2015imagenet}
+\citation{11_deng2009imagenet}
 \citation{44_mahajan2018exploring}
 \citation{44_mahajan2018exploring}
 \citation{61_wu2018unsupervised}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Pseudocode of MoCo in a PyTorch-like style.}}{4}{algorithm.1}\protected@file@percent }
+\newlabel{alg:al1}{{1}{4}{Pseudocode of MoCo in a PyTorch-like style}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Pretext Task}{4}{subsection.3.3}\protected@file@percent }
 \citation{56_tian2019contrastive}
 \citation{61_wu2018unsupervised,56_tian2019contrastive}
 \citation{25_goyal2017accurate}
 \citation{25_goyal2017accurate}
 \citation{25_goyal2017accurate}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Pseudocode of MoCo in a PyTorch-like style.}}{4}{algorithm.1}\protected@file@percent }
-\newlabel{alg:al1}{{1}{4}{Momentum Contrast}{algorithm.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Pretext Task}{4}{subsection.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{4}{section.4}\protected@file@percent }
 \citation{61_wu2018unsupervised}
 \citation{33_he2016deep}
-\citation{38_he2017maskrcnn}
+\citation{38_kolesnikov2019revisiting}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Linear Classiﬁcation Protocol}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Comparison of three contrastive loss mechanisms un- der the ImageNet linear classiﬁcation protocol. We adopt the same pretext task (Sec. 3.3) and only vary the contrastive loss mecha- nism (Figure 2). The number of negatives is K in memory bank and MoCo, and is K--1 in end-to-end (offset by one because the positive key is in the same mini-batch). The network is ResNet-50.}}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:Figure 3}{{3}{5}{Comparison of three contrastive loss mechanisms un- der the ImageNet linear classiﬁcation protocol. We adopt the same pretext task (Sec. 3.3) and only vary the contrastive loss mecha- nism (Figure 2). The number of negatives is K in memory bank and MoCo, and is K--1 in end-to-end (offset by one because the positive key is in the same mini-batch). The network is ResNet-50}{figure.caption.3}{}}
+\newlabel{tab:tab}{{\caption@xref {tab:tab}{ on input line 590}}{5}{Linear Classiﬁcation Protocol}{table.caption.4}{}}
 \citation{14_doersch2017multi,46_oord2018representation,35_henaff2019data}
 \citation{35_henaff2019data}
 \citation{23_gomez2017reversible}
@@ -119,32 +124,16 @@
 \citation{33_he2016deep}
 \citation{41_lin2017feature}
 \citation{31_he2019rethinking}
-\citation{14_doersch2017multi}
-\citation{34_he2016identity}
-\citation{13_doersch2015unsupervised}
-\citation{14_doersch2017multi}
-\citation{45_noroozi2016unsupervised}
-\citation{26_goyal2019scaling}
-\citation{14_doersch2017multi}
-\citation{34_he2016identity}
-\citation{13_doersch2015unsupervised}
-\citation{14_doersch2017multi}
-\citation{45_noroozi2016unsupervised}
-\citation{26_goyal2019scaling}
 \citation{22_girshick2018detectron}
 \citation{31_he2019rethinking}
 \citation{31_he2019rethinking}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Linear Classiﬁcation Protocol}{5}{subsection.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Comparison of three contrastive loss mechanisms un- der the ImageNet linear classiﬁcation protocol. We adopt the same pretext task (Sec. 3.3) and only vary the contrastive loss mecha- nism (Figure 2). The number of negatives is K in memory bank and MoCo, and is K--1 in end-to-end (offset by one because the positive key is in the same mini-batch). The network is ResNet-50.}}{5}{figure.3}\protected@file@percent }
-\newlabel{fig:Figure 3}{{3}{5}{Comparison of three contrastive loss mechanisms un- der the ImageNet linear classiﬁcation protocol. We adopt the same pretext task (Sec. 3.3) and only vary the contrastive loss mecha- nism (Figure 2). The number of negatives is K in memory bank and MoCo, and is K--1 in end-to-end (offset by one because the positive key is in the same mini-batch). The network is ResNet-50}{figure.3}{}}
-\newlabel{tab:tab}{{4.1}{5}{Linear Classiﬁcation Protocol}{figure.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Transferring Features}{5}{subsection.4.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Comparison under the linear classiﬁcation protocol on ImageNet. The ﬁgure visualizes the table. All are reported as unsupervised pre-training on the ImageNet-1M training set, fol- lowed by supervised linear classiﬁcation trained on frozen fea- tures, evaluated on the validation set. The parameter counts are those of the feature extractors. We compare with improved re- implementations if available (referenced after the numbers). Notations: R101$\ast $/R170$\ast $ is ResNet-101/170 with the last residual stage removed \cite  {14_doersch2017multi, 46_oord2018representation, 35_henaff2019data}, and R170 is made wider \cite  {35_henaff2019data}; Rv50 is a reversible net \cite  {23_gomez2017reversible}, RX50 is ResNeXt-50-32$\times $8d \cite  {62_xie2017residual}. $\dagger $: Pre-training uses FastAutoAugment \cite  {40_lim2019fast} that is supervised by ImageNet labels.}}{6}{figure.4}\protected@file@percent }
-\newlabel{fig:Table 1}{{4}{6}{Comparison under the linear classiﬁcation protocol on ImageNet. The ﬁgure visualizes the table. All are reported as unsupervised pre-training on the ImageNet-1M training set, fol- lowed by supervised linear classiﬁcation trained on frozen fea- tures, evaluated on the validation set. The parameter counts are those of the feature extractors. We compare with improved re- implementations if available (referenced after the numbers). Notations: R101$\ast $/R170$\ast $ is ResNet-101/170 with the last residual stage removed \cite {14_doersch2017multi, 46_oord2018representation, 35_henaff2019data}, and R170 is made wider \cite {35_henaff2019data}; Rv50 is a reversible net \cite {23_gomez2017reversible}, RX50 is ResNeXt-50-32$\times $8d \cite {62_xie2017residual}. $\dagger $: Pre-training uses FastAutoAugment \cite {40_lim2019fast} that is supervised by ImageNet labels}{figure.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Object detection ﬁne-tuned on PASCAL VOC trainval07+12. Evaluation is on test2007: AP50 (default VOC metric), AP (COCO-style), and AP75, averaged over 5 trials. All are ﬁne-tuned for 24k iterations ($\sim $23 epochs). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.}}{6}{figure.5}\protected@file@percent }
-\newlabel{fig:Table 2}{{5}{6}{Object detection ﬁne-tuned on PASCAL VOC trainval07+12. Evaluation is on test2007: AP50 (default VOC metric), AP (COCO-style), and AP75, averaged over 5 trials. All are ﬁne-tuned for 24k iterations ($\sim $23 epochs). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point}{figure.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Comparison of three contrastive loss mechanisms on PASCAL VOC object detection, ﬁne-tuned on trainval07+12 and evaluated on test2007 (averages over 5 trials). All models are implemented by us (Figure 3), pre-trained on IN-1M, and ﬁne- tuned using the same settings as in Table 2.}}{6}{figure.6}\protected@file@percent }
-\newlabel{fig:Table 3}{{6}{6}{Comparison of three contrastive loss mechanisms on PASCAL VOC object detection, ﬁne-tuned on trainval07+12 and evaluated on test2007 (averages over 5 trials). All models are implemented by us (Figure 3), pre-trained on IN-1M, and ﬁne- tuned using the same settings as in Table 2}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Table 1. Comparison under the linear classiﬁcation protocol on ImageNet. The ﬁgure visualizes the table. All are reported as unsupervised pre-training on the ImageNet-1M training set, fol- lowed by supervised linear classiﬁcation trained on frozen fea- tures, evaluated on the validation set. The parameter counts are those of the feature extractors. We compare with improved re- implementations if available (referenced after the numbers). Notations: R101$\ast $/R170$\ast $ is ResNet-101/170 with the last residual stage removed \cite  {14_doersch2017multi, 46_oord2018representation, 35_henaff2019data}, and R170 is made wider \cite  {35_henaff2019data}; Rv50 is a reversible net \cite  {23_gomez2017reversible}, RX50 is ResNeXt-50-32$\times $8d \cite  {62_xie2017residual}. $\dagger $: Pre-training uses FastAutoAugment \cite  {40_lim2019fast} that is supervised by ImageNet labels.}}{6}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:Table 1}{{4}{6}{Table 1. Comparison under the linear classiﬁcation protocol on ImageNet. The ﬁgure visualizes the table. All are reported as unsupervised pre-training on the ImageNet-1M training set, fol- lowed by supervised linear classiﬁcation trained on frozen fea- tures, evaluated on the validation set. The parameter counts are those of the feature extractors. We compare with improved re- implementations if available (referenced after the numbers). Notations: R101$\ast $/R170$\ast $ is ResNet-101/170 with the last residual stage removed \cite {14_doersch2017multi, 46_oord2018representation, 35_henaff2019data}, and R170 is made wider \cite {35_henaff2019data}; Rv50 is a reversible net \cite {23_gomez2017reversible}, RX50 is ResNeXt-50-32$\times $8d \cite {62_xie2017residual}. $\dagger $: Pre-training uses FastAutoAugment \cite {40_lim2019fast} that is supervised by ImageNet labels}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Table 2. Object detection ﬁne-tuned on PASCAL VOC trainval07+12. Evaluation is on test2007: AP50 (default VOC metric), AP (COCO-style), and AP75, averaged over 5 trials. All are ﬁne-tuned for 24k iterations ($\sim $23 epochs). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.}}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:Table 2}{{5}{6}{Table 2. Object detection ﬁne-tuned on PASCAL VOC trainval07+12. Evaluation is on test2007: AP50 (default VOC metric), AP (COCO-style), and AP75, averaged over 5 trials. All are ﬁne-tuned for 24k iterations ($\sim $23 epochs). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Table 3. Comparison of three contrastive loss mechanisms on PASCAL VOC object detection, ﬁne-tuned on trainval07+12 and evaluated on test2007 (averages over 5 trials). All models are implemented by us (Figure 3), pre-trained on IN-1M, and ﬁne- tuned using the same settings as in Table 2.}}{6}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:Table 3}{{6}{6}{Table 3. Comparison of three contrastive loss mechanisms on PASCAL VOC object detection, ﬁne-tuned on trainval07+12 and evaluated on test2007 (averages over 5 trials). All models are implemented by us (Figure 3), pre-trained on IN-1M, and ﬁne- tuned using the same settings as in Table 2}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Transferring Features}{6}{subsection.4.2}\protected@file@percent }
 \citation{52_ren2015faster}
 \citation{32_he2017mask}
 \citation{60_wu2019detectron2}
@@ -153,20 +142,25 @@
 \citation{32_he2017mask}
 \citation{41_lin2017feature}
 \citation{60_wu2019detectron2}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Table 4. Comparison with previous methods on object detection ﬁne-tuned on PASCAL VOC trainval2007. Evaluation is on test2007. The ImageNet supervised counterparts are from the respective papers, and are reported as having the same structure as the respective unsupervised pre-training counterparts. All entries are based on the C4 backbone. The models in [14] are R101 v2 [34], and others are R50. The RelPos (relative position) [13] result is the best single-task case in the Multi-task paper [14]. The Jigsaw [45] result is from the ResNet-based implementation in [26]. Our results are with 9k-iteration ﬁne-tuning, averaged over 5 trials. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.}}{7}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:Table 4}{{7}{7}{Table 4. Comparison with previous methods on object detection ﬁne-tuned on PASCAL VOC trainval2007. Evaluation is on test2007. The ImageNet supervised counterparts are from the respective papers, and are reported as having the same structure as the respective unsupervised pre-training counterparts. All entries are based on the C4 backbone. The models in [14] are R101 v2 [34], and others are R50. The RelPos (relative position) [13] result is the best single-task case in the Multi-task paper [14]. The Jigsaw [45] result is from the ResNet-based implementation in [26]. Our results are with 9k-iteration ﬁne-tuning, averaged over 5 trials. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}PASCAL VOC Object Detection}{7}{subsubsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}COCO Object Detection and Segmentation}{7}{subsubsection.4.2.2}\protected@file@percent }
 \citation{22_girshick2018detectron}
 \citation{1_guler2018densepose}
 \citation{27_gupta2019lvis}
 \citation{10_cordts2016cityscapes}
 \citation{10_cordts2016cityscapes}
 \citation{57_vanhorn2018inaturalist}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Comparison with previous methods on object detection ﬁne-tuned on PASCAL VOC trainval2007. Evaluation is on test2007. The ImageNet supervised counterparts are from the respective papers, and are reported as having the same structure as the respective unsupervised pre-training counterparts. All entries are based on the C4 backbone. The models in \cite  {14_doersch2017multi} are R101 v2 \cite  {34_he2016identity}, and others are R50. The RelPos (relative position) \cite  {13_doersch2015unsupervised} result is the best single-task case in the Multi-task paper \cite  {14_doersch2017multi}. The Jigsaw \cite  {45_noroozi2016unsupervised} result is from the ResNet-based implementation in \cite  {26_goyal2019scaling}. Our results are with 9k-iteration ﬁne-tuning, averaged over 5 trials. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.}}{7}{figure.7}\protected@file@percent }
-\newlabel{fig:Table 4}{{7}{7}{Comparison with previous methods on object detection ﬁne-tuned on PASCAL VOC trainval2007. Evaluation is on test2007. The ImageNet supervised counterparts are from the respective papers, and are reported as having the same structure as the respective unsupervised pre-training counterparts. All entries are based on the C4 backbone. The models in \cite {14_doersch2017multi} are R101 v2 \cite {34_he2016identity}, and others are R50. The RelPos (relative position) \cite {13_doersch2015unsupervised} result is the best single-task case in the Multi-task paper \cite {14_doersch2017multi}. The Jigsaw \cite {45_noroozi2016unsupervised} result is from the ResNet-based implementation in \cite {26_goyal2019scaling}. Our results are with 9k-iteration ﬁne-tuning, averaged over 5 trials. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point}{figure.7}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}PASCAL VOC Object Detection}{7}{subsubsection.4.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}COCO Object Detection and Segmentation}{7}{subsubsection.4.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}More Downstream Tasks}{7}{subsubsection.4.2.3}\protected@file@percent }
 \citation{61_wu2018unsupervised}
 \citation{12_devlin2019bert}
 \citation{46_oord2018representation}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Table 5. Object detection and instance segmentation ﬁne-tuned on COCO: bounding-box AP (APbb) and mask AP (APmk) evaluated on val2017. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.}}{8}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:Table 5}{{8}{8}{Table 5. Object detection and instance segmentation ﬁne-tuned on COCO: bounding-box AP (APbb) and mask AP (APmk) evaluated on val2017. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Table 6. MoCo vs. ImageNet supervised pre-training, ﬁne- tuned on various tasks. For each task, the same architecture and schedule are used for all entries (see appendix). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point. $\dagger $:: this entry is with BN frozen, which improves results; see main text.}}{8}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:Table 6}{{9}{8}{Table 6. MoCo vs. ImageNet supervised pre-training, ﬁne- tuned on various tasks. For each task, the same architecture and schedule are used for all entries (see appendix). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point. $\dagger $:: this entry is with BN frozen, which improves results; see main text}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}More Downstream Tasks}{8}{subsubsection.4.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and Conclusion}{8}{section.5}\protected@file@percent }
 \bibstyle{plain}
 \bibdata{references}
 \bibcite{2_bachman2019learning}{{1}{}{{}}{{}}}
@@ -174,11 +168,6 @@
 \bibcite{4_caron2019unsupervised}{{3}{}{{}}{{}}}
 \bibcite{5_chatfield2011devil}{{4}{}{{}}{{}}}
 \bibcite{7_chen2020simple}{{5}{}{{}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Object detection and instance segmentation ﬁne-tuned on COCO: bounding-box AP (APbb) and mask AP (APmk) evaluated on val2017. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point.}}{8}{figure.8}\protected@file@percent }
-\newlabel{fig:Table 5}{{8}{8}{Object detection and instance segmentation ﬁne-tuned on COCO: bounding-box AP (APbb) and mask AP (APmk) evaluated on val2017. In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point}{figure.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces MoCo vs. ImageNet supervised pre-training, ﬁne- tuned on various tasks. For each task, the same architecture and schedule are used for all entries (see appendix). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point. †: this entry is with BN frozen, which improves results; see main text.}}{8}{figure.9}\protected@file@percent }
-\newlabel{fig:Table 6}{{9}{8}{MoCo vs. ImageNet supervised pre-training, ﬁne- tuned on various tasks. For each task, the same architecture and schedule are used for all entries (see appendix). In the brackets are the gaps to the ImageNet supervised pre-training counterpart. In green are the gaps of at least +0.5 point. †: this entry is with BN frozen, which improves results; see main text}{figure.9}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and Conclusion}{8}{section.5}\protected@file@percent }
 \bibcite{8_chen2020improved}{{6}{}{{}}{{}}}
 \bibcite{9_coates2011importance}{{7}{}{{}}{{}}}
 \bibcite{10_cordts2016cityscapes}{{8}{}{{}}{{}}}
@@ -186,49 +175,54 @@
 \bibcite{12_devlin2019bert}{{10}{}{{}}{{}}}
 \bibcite{13_doersch2015unsupervised}{{11}{}{{}}{{}}}
 \bibcite{14_doersch2017multi}{{12}{}{{}}{{}}}
-\bibcite{17_dosovitskiy2014discriminative}{{13}{}{{}}{{}}}
-\bibcite{18_everingham2010pascal}{{14}{}{{}}{{}}}
-\bibcite{20_girshick2015fast}{{15}{}{{}}{{}}}
-\bibcite{21_girshick2014rich}{{16}{}{{}}{{}}}
-\bibcite{22_girshick2018detectron}{{17}{}{{}}{{}}}
-\bibcite{23_gomez2017reversible}{{18}{}{{}}{{}}}
-\bibcite{24_goodfellow2014generative}{{19}{}{{}}{{}}}
-\bibcite{25_goyal2017accurate}{{20}{}{{}}{{}}}
-\bibcite{26_goyal2019scaling}{{21}{}{{}}{{}}}
-\bibcite{1_guler2018densepose}{{22}{}{{}}{{}}}
-\bibcite{27_gupta2019lvis}{{23}{}{{}}{{}}}
-\bibcite{28_gutmann2010noise}{{24}{}{{}}{{}}}
-\bibcite{29_hadsell2006dimensionality}{{25}{}{{}}{{}}}
-\bibcite{31_he2019rethinking}{{26}{}{{}}{{}}}
-\bibcite{32_he2017mask}{{27}{}{{}}{{}}}
-\bibcite{33_he2016deep}{{28}{}{{}}{{}}}
-\bibcite{34_he2016identity}{{29}{}{{}}{{}}}
-\bibcite{35_henaff2019data}{{30}{}{{}}{{}}}
-\bibcite{36_hjelm2019learning}{{31}{}{{}}{{}}}
-\bibcite{57_vanhorn2018inaturalist}{{32}{}{{}}{{}}}
-\bibcite{37_ioffe2015batch}{{33}{}{{}}{{}}}
-\bibcite{39_lecun1989backpropagation}{{34}{}{{}}{{}}}
-\bibcite{40_lim2019fast}{{35}{}{{}}{{}}}
-\bibcite{41_lin2017feature}{{36}{}{{}}{{}}}
-\bibcite{42_lin2014microsoft}{{37}{}{{}}{{}}}
-\bibcite{43_long2015fully}{{38}{}{{}}{{}}}
-\bibcite{44_mahajan2018exploring}{{39}{}{{}}{{}}}
-\bibcite{45_noroozi2016unsupervised}{{40}{}{{}}{{}}}
-\bibcite{48_pathak2016context}{{41}{}{{}}{{}}}
-\bibcite{49_peng2018megdet}{{42}{}{{}}{{}}}
-\bibcite{50_radford2018improving}{{43}{}{{}}{{}}}
-\bibcite{51_radford2019language}{{44}{}{{}}{{}}}
-\bibcite{52_ren2015faster}{{45}{}{{}}{{}}}
-\bibcite{54_sivic2003video}{{46}{}{{}}{{}}}
-\bibcite{55_thomee2016yfcc100m}{{47}{}{{}}{{}}}
-\bibcite{56_tian2019contrastive}{{48}{}{{}}{{}}}
-\bibcite{46_oord2018representation}{{49}{}{{}}{{}}}
-\bibcite{59_wang2015unsupervised}{{50}{}{{}}{{}}}
-\bibcite{60_wu2019detectron2}{{51}{}{{}}{{}}}
-\bibcite{61_wu2018unsupervised}{{52}{}{{}}{{}}}
-\bibcite{62_xie2017residual}{{53}{}{{}}{{}}}
-\bibcite{63_ye2019unsupervised}{{54}{}{{}}{{}}}
-\bibcite{64_zhang2016colorful}{{55}{}{{}}{{}}}
-\bibcite{66_zhuang2019local}{{56}{}{{}}{{}}}
+\bibcite{15_donahue2017adversarial}{{13}{}{{}}{{}}}
+\bibcite{16_donahue2019large}{{14}{}{{}}{{}}}
+\bibcite{17_dosovitskiy2014discriminative}{{15}{}{{}}{{}}}
+\bibcite{18_everingham2010pascal}{{16}{}{{}}{{}}}
+\bibcite{20_girshick2015fast}{{17}{}{{}}{{}}}
+\bibcite{21_girshick2014rich}{{18}{}{{}}{{}}}
+\bibcite{22_girshick2018detectron}{{19}{}{{}}{{}}}
+\bibcite{23_gomez2017reversible}{{20}{}{{}}{{}}}
+\bibcite{24_goodfellow2014generative}{{21}{}{{}}{{}}}
+\bibcite{25_goyal2017accurate}{{22}{}{{}}{{}}}
+\bibcite{26_goyal2019scaling}{{23}{}{{}}{{}}}
+\bibcite{1_guler2018densepose}{{24}{}{{}}{{}}}
+\bibcite{27_gupta2019lvis}{{25}{}{{}}{{}}}
+\bibcite{28_gutmann2010noise}{{26}{}{{}}{{}}}
+\bibcite{29_hadsell2006dimensionality}{{27}{}{{}}{{}}}
+\bibcite{31_he2019rethinking}{{28}{}{{}}{{}}}
+\bibcite{32_he2017mask}{{29}{}{{}}{{}}}
+\bibcite{33_he2016deep}{{30}{}{{}}{{}}}
+\bibcite{35_henaff2019data}{{31}{}{{}}{{}}}
+\bibcite{36_hjelm2019learning}{{32}{}{{}}{{}}}
+\bibcite{57_vanhorn2018inaturalist}{{33}{}{{}}{{}}}
+\bibcite{37_ioffe2015batch}{{34}{}{{}}{{}}}
+\bibcite{38_kolesnikov2019revisiting}{{35}{}{{}}{{}}}
+\bibcite{39_lecun1989backpropagation}{{36}{}{{}}{{}}}
+\bibcite{40_lim2019fast}{{37}{}{{}}{{}}}
+\bibcite{41_lin2017feature}{{38}{}{{}}{{}}}
+\bibcite{42_lin2014microsoft}{{39}{}{{}}{{}}}
+\bibcite{43_long2015fully}{{40}{}{{}}{{}}}
+\bibcite{44_mahajan2018exploring}{{41}{}{{}}{{}}}
+\bibcite{45_noroozi2016unsupervised}{{42}{}{{}}{{}}}
+\bibcite{47_pathak2017learning}{{43}{}{{}}{{}}}
+\bibcite{48_pathak2016context}{{44}{}{{}}{{}}}
+\bibcite{49_peng2018megdet}{{45}{}{{}}{{}}}
+\bibcite{50_radford2018improving}{{46}{}{{}}{{}}}
+\bibcite{51_radford2019language}{{47}{}{{}}{{}}}
+\bibcite{52_ren2015faster}{{48}{}{{}}{{}}}
+\bibcite{54_sivic2003video}{{49}{}{{}}{{}}}
+\bibcite{55_thomee2016yfcc100m}{{50}{}{{}}{{}}}
+\bibcite{56_tian2019contrastive}{{51}{}{{}}{{}}}
+\bibcite{46_oord2018representation}{{52}{}{{}}{{}}}
+\bibcite{58_vincent2008denoising}{{53}{}{{}}{{}}}
+\bibcite{59_wang2015unsupervised}{{54}{}{{}}{{}}}
+\bibcite{60_wu2019detectron2}{{55}{}{{}}{{}}}
+\bibcite{61_wu2018unsupervised}{{56}{}{{}}{{}}}
+\bibcite{62_xie2017residual}{{57}{}{{}}{{}}}
+\bibcite{63_ye2019unsupervised}{{58}{}{{}}{{}}}
+\bibcite{64_zhang2016colorful}{{59}{}{{}}{{}}}
+\bibcite{65_zhang2017splitbrain}{{60}{}{{}}{{}}}
+\bibcite{66_zhuang2019local}{{61}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\gdef \@abspage@last{10}
+\gdef \@abspage@last{11}

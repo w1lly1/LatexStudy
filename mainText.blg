@@ -3,56 +3,48 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: mainText.aux
 The style file: plain.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "63_he2019momentum"
-Warning--I didn't find a database entry for "15_donahue2016adversarial"
-Warning--I didn't find a database entry for "16_dumoulin2016adversarial"
-Warning--I didn't find a database entry for "58_vincent2010stacked"
-Warning--I didn't find a database entry for "65_larsson2016learning"
-Warning--I didn't find a database entry for "47_vondrick2016generating"
-Warning--I didn't find a database entry for "11_russakovsky2015imagenet"
-Warning--I didn't find a database entry for "38_he2017maskrcnn"
 Warning--empty journal in 22_girshick2018detectron
 Warning--empty journal in 50_radford2018improving
 Warning--empty journal in 51_radford2019language
-You've used 56 entries,
+You've used 61 entries,
             2118 wiz_defined-function locations,
-            704 strings with 12902 characters,
-and the built_in function-call counts, 19038 in all, are:
-= -- 1559
-> -- 1412
+            713 strings with 13456 characters,
+and the built_in function-call counts, 20552 in all, are:
+= -- 1686
+> -- 1507
 < -- 0
-+ -- 561
-- -- 498
-* -- 1309
-:= -- 3347
-add.period$ -- 169
-call.type$ -- 56
-change.case$ -- 417
++ -- 598
+- -- 530
+* -- 1401
+:= -- 3608
+add.period$ -- 184
+call.type$ -- 61
+change.case$ -- 448
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 721
-empty$ -- 1409
-format.name$ -- 498
-if$ -- 3826
+cite$ -- 64
+duplicate$ -- 787
+empty$ -- 1538
+format.name$ -- 530
+if$ -- 4140
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 55
-newline$ -- 284
-num.names$ -- 112
-pop$ -- 590
+int.to.str$ -- 61
+missing$ -- 60
+newline$ -- 309
+num.names$ -- 122
+pop$ -- 637
 preamble$ -- 1
-purify$ -- 361
+purify$ -- 387
 quote$ -- 0
-skip$ -- 399
+skip$ -- 435
 stack$ -- 0
-substring$ -- 287
-swap$ -- 94
+substring$ -- 312
+swap$ -- 103
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 224
+type$ -- 244
 warning$ -- 3
-while$ -- 112
-width$ -- 58
-write$ -- 561
-(There were 11 warnings)
+while$ -- 122
+width$ -- 63
+write$ -- 611
+(There were 3 warnings)

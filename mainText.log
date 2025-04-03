@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.31)  3 APR 2025 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.31)  4 APR 2025 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -111,11 +111,66 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count282
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen153
+\ttl@minus=\dimen154
+\ttl@toksa=\toks23
+\titlewidth=\dimen155
+\titlewidthlast=\dimen156
+\titlewidthfirst=\dimen157
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip58
+\thanksmargin=\skip59
+\droptitle=\skip60
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (f:/laTex/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (f:/laTex/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks24
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (f:/laTex/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count286
+\float@exts=\toks25
+\float@box=\box55
+\@float@everytoks=\toks26
+\@floatcapt=\box56
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks27
+\c@algorithm=\count287
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count288
+\c@ALC@line=\count289
+\c@ALC@rem=\count290
+\c@ALC@depth=\count291
+\ALC@tlm=\skip61
+\algorithmicindent=\skip62
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (f:/laTex/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (f:/laTex/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -142,16 +197,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count283
+\c@section@level=\count292
 ) (f:/laTex/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
+\etb@tempcnta=\count293
 ) (f:/laTex/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen153
-\Hy@linkcounter=\count285
-\Hy@pagecounter=\count286
+\@linkdim=\dimen166
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -159,7 +214,7 @@ Now handling font encoding PD1 ...
 ) (f:/laTex/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count287
+\Hy@SavedSpaceFactor=\count296
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -172,21 +227,21 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count288
+\c@Hy@tempcnt=\count297
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen154
+\XeTeXLinkMargin=\dimen167
  (f:/laTex/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (f:/laTex/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count289
-\Field@Width=\dimen155
-\Fld@charsize=\dimen156
+\Fld@menulength=\count298
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -198,9 +253,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count290
-\c@Item=\count291
-\c@Hfootnote=\count292
+\Hy@abspage=\count299
+\c@Item=\count300
+\c@Hfootnote=\count301
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -209,8 +264,8 @@ File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (f:/laTex/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -218,62 +273,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip56
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box54
-\beforetitleunit=\skip57
-\aftertitleunit=\skip58
-\ttl@plus=\dimen157
-\ttl@minus=\dimen158
-\ttl@toksa=\toks23
-\titlewidth=\dimen159
-\titlewidthlast=\dimen160
-\titlewidthfirst=\dimen161
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip59
-\thanksmargin=\skip60
-\droptitle=\skip61
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (f:/laTex/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count295
-\Gm@cntv=\count296
-\c@Gm@tempcnt=\count297
-\Gm@bindingoffset=\dimen162
-\Gm@wd@mp=\dimen163
-\Gm@odd@mp=\dimen164
-\Gm@even@mp=\dimen165
-\Gm@layoutwidth=\dimen166
-\Gm@layoutheight=\dimen167
-\Gm@layouthoffset=\dimen168
-\Gm@layoutvoffset=\dimen169
-\Gm@dimlist=\toks24
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- (f:/laTex/texlive/2025/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count298
-\float@exts=\toks25
-\float@box=\box55
-\@float@everytoks=\toks26
-\@floatcapt=\box56
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-\@float@every@algorithm=\toks27
-\c@algorithm=\count299
-) (f:/laTex/texlive/2025/texmf-dist/tex/latex/algorithms/algorithmic.sty
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count300
-\c@ALC@line=\count301
-\c@ALC@rem=\count302
-\c@ALC@depth=\count303
-\ALC@tlm=\skip62
-\algorithmicindent=\skip63
+\Hy@SectionHShift=\skip63
 ) (f:/laTex/texlive/2025/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 ) (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/times.sty
@@ -329,48 +329,75 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (f:/laTex/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (f:/laTex/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen170
+\captionmargin=\dimen171
+\caption@leftmargin=\dimen172
+\caption@rightmargin=\dimen173
+\caption@width=\dimen174
+\caption@indent=\dimen175
+\caption@parindent=\dimen176
+\caption@hangindent=\dimen177
+Package caption Info: Standard document class detected.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 28.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 56.
- (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+\c@caption@flags=\count304
+\c@continuedfloat=\count305
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (496.78531pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (641.32492pt) is ignored.
+
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 79.
+(f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (f:/laTex/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
+\l__color_backend_stack_int=\count306
 \l__pdf_internal_box=\box57
 ) (./mainText.aux)
 \openout1 = `mainText.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
  (f:/laTex/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen170
+\scratchcounter=\count307
+\scratchdimen=\dimen178
 \scratchbox=\box58
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count308
+\nofMParguments=\count309
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen171
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen179
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks29
 ) (f:/laTex/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -378,12 +405,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 56.
- (./mainText.out) (./mainText.out)
-\@outlinefile=\write3
-\openout3 = `mainText.out'.
-
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -392,22 +413,22 @@ Package hyperref Info: Link coloring ON on input line 56.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* h-part:(L,W,R)=(54.06006pt, 489.38776pt, 54.06006pt)
+* v-part:(T,H,B)=(72.2698pt, 673.1924pt, 99.58464pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=759.6886pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-72.26997pt
-* \headheight=28.45274pt
-* \headsep=14.22636pt
+* \textwidth=489.38776pt
+* \textheight=673.1924pt
+* \oddsidemargin=-18.20993pt
+* \evensidemargin=-18.20993pt
+* \topmargin=-19.917pt
+* \headheight=14.22636pt
+* \headsep=5.69046pt
 * \topskip=10.0pt
-* \footskip=28.45274pt
+* \footskip=22.76228pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
-* \columnsep=10.0pt
+* \columnsep=22.76228pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -418,288 +439,229 @@ Package hyperref Info: Link coloring ON on input line 56.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 57.
-(f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+Package hyperref Info: Link coloring ON on input line 79.
+(./mainText.out) (./mainText.out)
+\@outlinefile=\write3
+\openout3 = `mainText.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 81.
+ (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 57.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 81.
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 57.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 81.
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 57.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 81.
  (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+
+Overfull \hbox (11.38115pt too wide) in paragraph at lines 83--102
+$[]$ 
+ []
+
 <Pic/figure1.png, id=73, 200.24812pt x 154.32657pt>
 File: Pic/figure1.png Graphic file (type png)
 <use Pic/figure1.png>
-Package pdftex.def Info: Pic/figure1.png  used on input line 108.
-(pdftex.def)             Requested size: 200.86061pt x 154.80655pt.
+Package pdftex.def Info: Pic/figure1.png  used on input line 131.
+(pdftex.def)             Requested size: 174.98454pt x 134.8635pt.
+
+Underfull \hbox (badness 2150) in paragraph at lines 147--190
+\OT1/ptm/m/n/10 sir-able to build dic-tio-nar-ies that are: (i) large and
+ []
 
 
-Package natbib Warning: Citation `63_he2019momentum' on page 1 undefined on input line 145.
+Underfull \hbox (badness 1377) in paragraph at lines 147--190
+\OT1/ptm/m/n/10 (ii) con-sis-tent as they evolve dur-ing train-ing. In-tu-
+ []
 
 
-Underfull \vbox (badness 1762) has occurred while \output is active []
+Underfull \hbox (badness 2126) in paragraph at lines 147--190
+\OT1/ptm/m/n/10 itively, a larger dictio- nary may bet-ter sam-ple the
+ []
 
 
-
-
-Package natbib Warning: Citation `15_donahue2016adversarial' on page 1 undefined on input line 193.
-
-
-Package natbib Warning: Citation `16_dumoulin2016adversarial' on page 1 undefined on input line 193.
-
-
-Package natbib Warning: Citation `58_vincent2010stacked' on page 1 undefined on input line 198.
-
-
-Package natbib Warning: Citation `65_larsson2016learning' on page 1 undefined on input line 200.
-
-
-Package natbib Warning: Citation `47_vondrick2016generating' on page 1 undefined on input line 203.
 
 
 
 [1{f:/laTex/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{f:/laTex/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.211 
-       <./Pic/figure1.png>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
-
-
-Package natbib Warning: Citation `63_he2019momentum' on page 2 undefined on input line 245.
-
-
-Package natbib Warning: Citation `63_he2019momentum' on page 2 undefined on input line 247.
+ <./Pic/figure1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<Pic/figure2.png, id=151, 442.65375pt x 156.585pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+|[]\OT1/ptm/b/n/12 Contrastive Learn-ing as Dic-tio-nary
+ []
+
+<Pic/figure2.png, id=158, 442.65375pt x 156.585pt>
 File: Pic/figure2.png Graphic file (type png)
 <use Pic/figure2.png>
-Package pdftex.def Info: Pic/figure2.png  used on input line 251.
-(pdftex.def)             Requested size: 409.72125pt x 144.94397pt.
+Package pdftex.def Info: Pic/figure2.png  used on input line 276.
+(pdftex.def)             Requested size: 391.51169pt x 138.50244pt.
 
-Package natbib Warning: Citation `63_he2019momentum' on page 2 undefined on input line 320.
+Underfull \vbox (badness 4378) has occurred while \output is active []
 
 
 
 [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[3
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.341 \clearpage
-                 % 强制分页
-
- <./Pic/figure2.png>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 343.
-
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 365.
 
 LaTeX Font Warning: Font shape `OT1/ptm/l/n' undefined
-(Font)              using `OT1/ptm/m/n' instead on input line 347.
+(Font)              using `OT1/ptm/m/n' instead on input line 369.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 355.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 377.
 (f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
+[3 <./Pic/figure2.png>]
 
-Package natbib Warning: Citation `11_russakovsky2015imagenet' on page 4 undefined on input line 459.
 
+Underfull \hbox (badness 7203) in paragraph at lines 492--517
+  \OT1/ptm/m/n/10 We study un-su-per-vised train-ing per-formed in:
+ []
+
+
+
+[4]
+
+<Pic/figure3.png, id=283, 294.34969pt x 155.07938pt>
+File: Pic/figure3.png Graphic file (type png)
+<use Pic/figure3.png>
+Package pdftex.def Info: Pic/figure3.png  used on input line 563.
+(pdftex.def)             Requested size: 186.6509pt x 98.33942pt.
+
+
+[5 <./Pic/figure3.png>]
+<Pic/table1.png, id=297, 314.67563pt x 465.23813pt>
+File: Pic/table1.png Graphic file (type png)
+<use Pic/table1.png>
+Package pdftex.def Info: Pic/table1.png  used on input line 617.
+(pdftex.def)             Requested size: 233.31273pt x 344.94522pt.
+
+Underfull \vbox (badness 3977) has occurred while \output is active []
+
+
+
+<Pic/table2.png, id=318, 305.64188pt x 175.40532pt>
+File: Pic/table2.png Graphic file (type png)
+<use Pic/table2.png>
+Package pdftex.def Info: Pic/table2.png  used on input line 653.
+(pdftex.def)             Requested size: 233.31273pt x 133.89555pt.
+<Pic/table3.png, id=319, 310.15875pt x 67.75313pt>
+File: Pic/table3.png Graphic file (type png)
+<use Pic/table3.png>
+Package pdftex.def Info: Pic/table3.png  used on input line 667.
+(pdftex.def)             Requested size: 233.31273pt x 50.96564pt.
+<Pic/table4.png, id=328, 660.96938pt x 103.88812pt>
+File: Pic/table4.png Graphic file (type png)
+<use Pic/table4.png>
+Package pdftex.def Info: Pic/table4.png  used on input line 700.
+(pdftex.def)             Requested size: 489.38776pt x 76.92197pt.
+
+
+[6 <./Pic/table1.png> <./Pic/table2.png> <./Pic/table3.png>]
+
+<Pic/table5.png, id=370, 674.52pt x 178.41656pt>
+File: Pic/table5.png Graphic file (type png)
+<use Pic/table5.png>
+Package pdftex.def Info: Pic/table5.png  used on input line 793.
+(pdftex.def)             Requested size: 391.51169pt x 103.56061pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[7 <./Pic/table4.png>]
+<Pic/table6.png, id=384, 297.36093pt x 353.06906pt>
+File: Pic/table6.png Graphic file (type png)
+<use Pic/table6.png>
+Package pdftex.def Info: Pic/table6.png  used on input line 804.
+(pdftex.def)             Requested size: 233.31273pt x 277.01974pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[4
-
-]
-<Pic/figure3.png, id=269, 294.34969pt x 155.07938pt>
-File: Pic/figure3.png Graphic file (type png)
-<use Pic/figure3.png>
-Package pdftex.def Info: Pic/figure3.png  used on input line 529.
-(pdftex.def)             Requested size: 200.86061pt x 105.82408pt.
 
 
-Package natbib Warning: Citation `38_he2017maskrcnn' on page 5 undefined on input line 571.
-
-
-
-<Pic/table1.png, id=272, 391.4625pt x 750.55406pt>
-File: Pic/table1.png Graphic file (type png)
-<use Pic/table1.png>
-Package pdftex.def Info: Pic/table1.png  used on input line 583.
-(pdftex.def)             Requested size: 200.86061pt x 385.11382pt.
-<Pic/table2.png, id=293, 391.4625pt x 327.47343pt>
-File: Pic/table2.png Graphic file (type png)
-<use Pic/table2.png>
-Package pdftex.def Info: Pic/table2.png  used on input line 617.
-(pdftex.def)             Requested size: 200.86061pt x 168.0286pt.
-<Pic/table3.png, id=294, 380.92313pt x 177.66376pt>
-File: Pic/table3.png Graphic file (type png)
-<use Pic/table3.png>
-Package pdftex.def Info: Pic/table3.png  used on input line 629.
-(pdftex.def)             Requested size: 200.86061pt x 93.6815pt.
-<Pic/table4.png, id=306, 813.79031pt x 233.37187pt>
-File: Pic/table4.png Graphic file (type png)
-<use Pic/table4.png>
-Package pdftex.def Info: Pic/table4.png  used on input line 668.
-(pdftex.def)             Requested size: 409.72125pt x 117.49397pt.
-
-
-[5
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.690 \subsubsection{PASCAL VOC Object Detection}
-                                                  <./Pic/figure3.png>]
-
-
-
-[6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.690 \subsubsection{PASCAL VOC Object Detection}
-                                                 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.690 \subsubsection{PASCAL VOC Object Detection}
-                                                 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.690 \subsubsection{PASCAL VOC Object Detection}
-                                                  <./Pic/table1.png> <./Pic/table2.png> <./Pic/table3.png>]
-
-<Pic/table5.png, id=367, 834.86906pt x 262.73157pt>
-File: Pic/table5.png Graphic file (type png)
-<use Pic/table5.png>
-Package pdftex.def Info: Pic/table5.png  used on input line 761.
-(pdftex.def)             Requested size: 409.72125pt x 128.94003pt.
-<Pic/table6.png, id=368, 385.44pt x 545.78906pt>
-File: Pic/table6.png Graphic file (type png)
-<use Pic/table6.png>
-Package pdftex.def Info: Pic/table6.png  used on input line 769.
-(pdftex.def)             Requested size: 200.86061pt x 284.41989pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 775.
-(f:/laTex/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.815 
-       <./Pic/table4.png>]
-
-(./mainText.bbl
-
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.27 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.27 
-      <./Pic/table5.png> <./Pic/table6.png>]
-Underfull \hbox (badness 1418) in paragraph at lines 39--42
-[]\OT1/ptm/m/n/10 Marius Cordts, Mo-hamed Om-ran, Se-bas-tian Ramos,
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 69--72
-[]\OT1/ptm/m/n/10 Mark Ev-er-ing-ham, Luc Van Gool, Christo-pher KI
+[8 <./Pic/table5.png> <./Pic/table6.png>] (./mainText.bbl
+Underfull \hbox (badness 5161) in paragraph at lines 24--27
+\OT1/ptm/m/n/10 and Ge-of-frey Hin-ton.  A sim-ple frame-work
  []
 
 
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 119--122
-[]\OT1/ptm/m/n/10 Michael Gut-mann and Aapo Hyv[]arinen.  Noise-
+Underfull \hbox (badness 2393) in paragraph at lines 114--117
+\OT1/ptm/m/n/10 Is-han Misra.  Scal-ing and bench-mark-ing self-
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 149--152
-\OT1/ptm/m/n/10 lami, and Aaron van den Oord.  Data-efficient im-
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 149--152
-\OT1/ptm/m/n/10 age recog-ni-tion with con-trastive pre-dic-tive cod-ing.
- []
-
-
-Underfull \hbox (badness 6396) in paragraph at lines 154--157
-[]\OT1/ptm/m/n/10 R De-von Hjelm, Alex Fe-dorov, Samuel Lavoie-
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 194--197
-\OT1/ptm/m/n/10 Kaim-ing He, Manohar Paluri, Yix-uan Li, Ash-win
+Underfull \hbox (badness 1596) in paragraph at lines 119--122
+[]\OT1/ptm/m/n/10 R^^Pza Alp G[]uler, Na-talia Neverova, and Ia-sonas
  []
 
 
 
 [9]
-Underfull \hbox (badness 2799) in paragraph at lines 204--207
-[]\OT1/ptm/m/n/10 Deepak Pathak, Philipp Kra-hen-buhl, Jeff Don-ahue,
+Underfull \hbox (badness 1033) in paragraph at lines 159--162
+[]\OT1/ptm/m/n/10 R De-von Hjelm, Alex Fe-dorov, Samuel Lavoie-
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 258--262
-[]\OT1/ptm/m/n/10 Zhirong Wu, Yuan-jun Xiong, Stella Yu, and Dahua
+Underfull \hbox (badness 1077) in paragraph at lines 184--187
+\OT1/ptm/m/n/10 Kim, and Sung-woong Kim.  Fast au-toaug-ment.
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 258--262
-\OT1/ptm/m/n/10 ver-sion ac-cessed at: [][]$\OT1/pcr/m/n/10 https : / / arxiv . org / abs /
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 204--207
+[]\OT1/ptm/m/n/10 Dhruv Ma-ha-jan, Ross Gir-shick, Vi-g-nesh Ra-
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 269--272
-[]\OT1/ptm/m/n/10 Mang Ye, Xu Zhang, Pong C Yuen, and Shih-Fu
+
+[10]
+Underfull \hbox (badness 3568) in paragraph at lines 278--282
+\OT1/ptm/m/n/10 Lin.  Un-su-per-vised fea-ture learn-ing via non-
  []
-
-
 
 )
 
-Package natbib Warning: There were undefined citations.
 
 
+[11
 
-[10] (./mainText.aux)
+] (./mainText.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -708,18 +670,18 @@ Package rerunfilecheck Info: File `mainText.out' has not changed.
 (rerunfilecheck)             Checksum: B5F63ECD1B89D6810AA445DB26A88458;2136.
  ) 
 Here is how much of TeX's memory you used:
- 11823 strings out of 473190
- 183002 string characters out of 5716853
- 627599 words of memory out of 5000000
- 34769 multiletter control sequences out of 15000+600000
- 592261 words of font info for 99 fonts, out of 8000000 for 9000
+ 13135 strings out of 473190
+ 208891 string characters out of 5716853
+ 643214 words of memory out of 5000000
+ 36071 multiletter control sequences out of 15000+600000
+ 591947 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1101b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1080b,760s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <f:/laTex/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><f:/laTex/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mainText.pdf (10 pages, 960099 bytes).
+Output written on mainText.pdf (11 pages, 699157 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 137 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
